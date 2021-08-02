@@ -1,0 +1,240 @@
+
+library(pheatmap)
+library(viridis)
+library(stringr)
+library(ggplot2)
+library(reshape2)
+library(matrixStats)
+library(ggrepel)
+library(tidyverse)
+library(gggenes)
+library(patchwork)
+library(readxl)
+
+
+# Read in normalized counts
+all.normcounts <- read_csv('./analysis/1_gene_expression/norm_counts/CvvVenomReg_RepRNAseq_wNonVen_VSTNormCounts_08.02.21.csv')
+
+# Define set of priority venom genes (those upregulated in venom gland compared to non-venom gland)
+ven.annot <- read_xlsx('./data/venom_annotation/fullVenomAnnotation_02.20.20.xlsx',col_names = F)
+ven.vs.nonven <- read_csv('./analysis/1_gene_expression/pairwise_results/cvv_Venom.vs.NonVenom_VG_PairwiseResult_08.02.21.csv') %>% 
+  filter(IHW_pvalue < 0.05) %>% 
+  filter(log2FoldChange > 0) %>% 
+  mutate(txid = str_split_fixed(X1,'_',2)[,2])
+
+upreg.ven.annot <- ven.annot %>% 
+  filter(...6 %in% ven.vs.nonven$txid) %>% 
+  filter(...4 != 'Myotoxin/crotamine') %>%  # excluding this annotation because it is wrong
+  select(chr = 1, start = 2, end = 3, annotation = 4, gff_id = 5, transcript_id = 6)
+
+
+# Filter norm counts for venom genes
+vg.normcounts <- all.normcounts %>% 
+  mutate(txid = str_split_fixed(X1,'[_]',2)[,2]) %>% 
+  filter(txid %in% vg.pri$X6) %>% 
+  left_join(vg.pri,by=c('txid'='X6')) %>% 
+  select(gene=X7,3,7,8,2,4,5,6,9,10,11,12)
+
+vg.1DPEavg <- vg.normcounts %>% 
+  mutate(avg1DPE = rowMeans(vg.normcounts[,2:4])) %>% 
+  select(gene,avg1DPE)
+
+# write_tsv(vg.1DPEavg,'VG_1DPEAvgExpression_08.02.21.tsv')
+
+vg.highest <- vg.1DPEavg %>% 
+  filter(avg1DPE > 100000)
+
+# write_tsv(vg.highest,'HighExpressed_VenGenes_10.14.20.tsv')
+
+
+# Split by venom gene family/group
+
+pla2.normcounts <- vg.normcounts %>% filter(str_detect(gene,'PLA2'))
+svmp.normcounts <- vg.normcounts %>% filter(str_detect(gene,'SVMP'))
+svsp.normcounts <- vg.normcounts %>% filter(str_detect(gene,'SVSP'))
+other.normcounts <- vg.normcounts %>% filter(str_detect(gene,'PLA2|SVMP|SVSP',negate = T))
+
+
+# Format for pheatmap and reorder by exp magnitude
+vg.heatdata <- as.data.frame(vg.normcounts[,-1])
+row.names(vg.heatdata) <- vg.normcounts$gene
+
+pla2.heatdata <- as.data.frame(pla2.normcounts[,-1])
+row.names(pla2.heatdata) <- pla2.normcounts$gene
+pla2.heatdata <- pla2.heatdata[order(pla2.heatdata$ODPE_1,decreasing = T),]
+
+svmp.heatdata <- as.data.frame(svmp.normcounts[,-1])
+row.names(svmp.heatdata) <- svmp.normcounts$gene
+svmp.heatdata <- svmp.heatdata[order(svmp.heatdata$ODPE_1,decreasing = T),]
+
+svsp.heatdata <- as.data.frame(svsp.normcounts[,-1])
+row.names(svsp.heatdata) <- svsp.normcounts$gene
+svsp.heatdata <- svsp.heatdata[order(svsp.heatdata$ODPE_1,decreasing = T),]
+
+other.heatdata <- as.data.frame(other.normcounts[,-1])
+row.names(other.heatdata) <- other.normcounts$gene
+other.heatdata <- other.heatdata[order(other.heatdata$ODPE_1,decreasing = T),]
+
+# Plot heatmaps
+
+breaksList = seq(0, 6.2, by = .05)
+
+pheatmap(pla2.heatdata,
+         scale='none',
+         # clustering_distance_rows = 'manhattan',
+         cluster_cols = F,cluster_rows = F,
+         col=inferno(50),
+         # breaks = breaksList,
+         show_rownames = T,
+         border_color = NA,
+         cellwidth = 20,cellheight = 20,
+         treeheight_row = 0,
+         gaps_col = c(3))
+
+pheatmap(svmp.heatdata,
+         scale='none',
+         # clustering_distance_rows = 'manhattan',
+         cluster_cols = F,cluster_rows = F,
+         col=inferno(50),
+         # breaks = breaksList,
+         show_rownames = T,
+         border_color = NA,
+         cellwidth = 20,cellheight = 20,
+         treeheight_row = 0,
+         gaps_col = 3)
+
+pheatmap(svsp.heatdata,
+         scale='none',
+         # clustering_distance_rows = 'manhattan',
+         cluster_cols = F,cluster_rows = F,
+         col=inferno(50),
+         # breaks = breaksList,
+         show_rownames = T,
+         border_color = NA,
+         cellwidth = 20,cellheight = 20,
+         treeheight_row = 0,
+         gaps_col = 3)
+
+
+
+
+pheatmap(other.heatdata,
+         scale='none',
+         cluster_cols = F,cluster_rows = F,
+         col=inferno(length(breaksList)),
+         # breaks = breaksList,
+         show_rownames = T,
+         border_color = NA,
+         cellwidth = 20,cellheight = 20,
+         treeheight_row = 0,
+         gaps_col = 3)
+
+
+### Gene cluster plotting (NOTE: NOT YET UPDATED)
+
+pri_venom_genes <- read_tsv('../___PriorityVenomGenes_Sept2020/PriorityVenomGeneList_withNVPs_02.25.21.txt',col_names = F) # NEW FILE that includes SVMP NVPs
+
+exp <- read_tsv('/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation/analyses/gene_expression/VG_1DPEAvgExpression_wNVPs.txt') %>% 
+  mutate(gene = ifelse(str_detect(gene,'ADAM28',negate = T),str_replace_all(gene,'_',' '),gene)) %>% 
+  mutate(log10avg1DPE = log10(avg1DPE + 0.1))
+
+
+all_info <- read_tsv('/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation/data/annotation/CroVir_rnd1.all.maker.final.homologIDs.updatedNov2019.GeneEntriesOnly.gff',col_names = F) %>% 
+  filter(str_detect(X9,'trnascan',negate = T)) %>% 
+  mutate(tx_id = str_split_fixed(X9,';',4)[,3]) %>% 
+  mutate(tx_id = str_remove_all(tx_id,'Crovir_Transcript_ID=')) %>% 
+  filter(tx_id %in% pri_venom_genes$X6) %>% 
+  left_join(pri_venom_genes,by=c('tx_id' = 'X6')) %>% 
+  select(molecule = 1, gene = 16, start = 4, end = 5, strand = 7,tx_id) %>% 
+  mutate(strand = ifelse(strand == '+','forward','reverse')) %>% 
+  mutate(direction = ifelse(strand == 'forward',1,-1)) %>% 
+  mutate(gene = ifelse(str_detect(gene,'ADAM28',negate = T),str_replace_all(gene,'_',' '),gene)) %>% 
+  left_join(exp) %>% 
+  mutate(gene = ifelse(str_detect(gene,'ADAM28|gIIE'),paste('NVP: ',gene,sep = ''),gene))
+
+
+breaksList = seq(0, 6.2, by = .5)
+
+
+SVMP <- all_info %>% 
+  filter(str_detect(gene,'SVMP|ADAM')) %>% 
+  ggplot(aes(xmin = start, xmax = end, y = molecule, forward = direction, fill = log10avg1DPE)) +
+  ggrepel::geom_text_repel(data = all_info %>% 
+                             filter(str_detect(gene,'SVMP')) %>% 
+                             mutate(start = (start + end)/2), 
+                           aes(x = start, y = molecule, label = gene), inherit.aes = F, nudge_y = 1) +
+  ggrepel::geom_text_repel(data = all_info %>% 
+                             filter(str_detect(gene,'ADAM')) %>% 
+                             mutate(start = (start + end)/2), 
+                           aes(x = start, y = molecule, label = gene), inherit.aes = F, nudge_y = 0.25,nudge_x = 100000) +
+  geom_gene_arrow(arrowhead_height = unit(3, "mm"), arrowhead_width = unit(2, "mm"),show.legend = T) +
+  ylab('') +
+  xlab('') +
+  scale_fill_viridis_c(option = 'B',breaks=breaksList) +
+  scale_x_continuous(labels = scales::comma,limits=c(13890000,14495000)) +
+  theme_genes()
+SVMP
+
+# region length (kb)
+(14495000 - 13890000) / 1000
+
+
+SVSP <- all_info %>% 
+  filter(str_detect(gene,'SVSP')) %>% 
+  ggplot(aes(xmin = start, xmax = end, y = molecule, forward = direction, fill = log10avg1DPE)) +
+  ggrepel::geom_text_repel(data = all_info %>% 
+                             filter(str_detect(gene,'SVSP')) %>% 
+                             mutate(start = (start + end)/2), 
+                           aes(x = start, y = molecule, label = gene), inherit.aes = F, nudge_y = 1) +
+  geom_gene_arrow(arrowhead_height = unit(3, "mm"), arrowhead_width = unit(2, "mm"),show.legend = F) +
+  ylab('') +
+  xlab('') +
+  scale_fill_viridis_c(option = 'B',breaks=breaksList) +
+  scale_x_continuous(labels = scales::comma,limits=c(8560000,9000000)) +
+  theme_genes()
+SVSP
+
+# region length (kb)
+(9000000 - 8560000) / 1000
+
+
+PLA2 <- all_info %>% 
+  filter(str_detect(gene,'PLA2')) %>% 
+  ggplot(aes(xmin = start, xmax = end, y = molecule, forward = direction, fill = log10avg1DPE)) +
+  ggrepel::geom_text_repel(data = all_info %>% 
+                             filter(str_detect(gene,'PLA2')) %>% 
+                             mutate(start = (start + end)/2), 
+                           aes(x = start, y = molecule, label = gene), inherit.aes = F, nudge_y = 1) +
+  geom_gene_arrow(arrowhead_height = unit(3, "mm"), arrowhead_width = unit(2, "mm"),show.legend = F) +
+  ylab('') +
+  xlab('') +
+  scale_fill_viridis_c(option = 'B',breaks=breaksList) +
+  scale_x_continuous(labels = scales::comma,limits=c(3019000,3045000)) +
+  theme_genes()
+PLA2
+
+# region length (kb)
+(3045000 - 3019000) / 1000
+
+
+CRISP <- all_info %>% 
+  filter(str_detect(gene,'CRISP')) %>% 
+  ggplot(aes(xmin = start, xmax = end, y = molecule, forward = direction, fill = log10avg1DPE)) +
+  ggrepel::geom_text_repel(data = all_info %>%
+                             filter(str_detect(gene,'CRISP')) %>%
+                             mutate(start = (start + end)/2),
+                           aes(x = start, y = molecule, label = gene), inherit.aes = F, nudge_y = 1) +
+  geom_gene_arrow(arrowhead_height = unit(3, "mm"), arrowhead_width = unit(2, "mm"),show.legend = F) +
+  ylab('') +
+  xlab('') +
+  scale_fill_viridis_c(option = 'B',breaks=breaksList) +
+  scale_x_continuous(labels = scales::comma,limits=c(169423000,169439000)) +
+  theme_genes()
+
+# region length (kb)
+(169439000 - 169423000) / 1000
+
+
+SVMP / SVSP / PLA2 / CRISP + plot_layout(guides = 'collect')
+
+

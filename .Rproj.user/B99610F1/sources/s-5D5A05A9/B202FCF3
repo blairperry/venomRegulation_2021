@@ -1,0 +1,26 @@
+{
+    "id": "B202FCF3",
+    "path": "~/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_OLD/data/venom_annotations/___PriorityVenomGenes_Sept2020/PriorityVenomGeneFiltering_09.29.20.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1627928673705.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "32,84",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1601406152,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1601406152,
+    "read_only": false,
+    "read_only_alternatives": []
+}
