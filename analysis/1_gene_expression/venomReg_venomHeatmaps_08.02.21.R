@@ -71,17 +71,18 @@ other.heatdata <- other.heatdata[order(other.heatdata$ODPE_1,decreasing = T),]
 
 # Plot heatmaps
 
-breaksList = seq(0, 6.2, by = .05)
+breaksList = seq(min(vg.normcounts[,3:11]), 19, by = 0.01)
 
 pheatmap(pla2.heatdata,
          scale='none',
          # clustering_distance_rows = 'manhattan',
          cluster_cols = F,cluster_rows = F,
-         col=inferno(50),
-         # breaks = breaksList,
+         col=inferno(length(breaksList)),
+         breaks = breaksList,
          show_rownames = T,
          border_color = NA,
-         cellwidth = 20,cellheight = 20,
+         fontsize_row = 9,
+         cellwidth = 20,cellheight = 10,
          treeheight_row = 0,
          gaps_col = c(3))
 
@@ -89,11 +90,12 @@ pheatmap(svmp.heatdata,
          scale='none',
          # clustering_distance_rows = 'manhattan',
          cluster_cols = F,cluster_rows = F,
-         col=inferno(50),
-         # breaks = breaksList,
+         col=inferno(length(breaksList)),
+         breaks = breaksList,
          show_rownames = T,
          border_color = NA,
-         cellwidth = 20,cellheight = 20,
+         fontsize_row = 9,
+         cellwidth = 20,cellheight = 10,
          treeheight_row = 0,
          gaps_col = 3)
 
@@ -101,11 +103,12 @@ pheatmap(svsp.heatdata,
          scale='none',
          # clustering_distance_rows = 'manhattan',
          cluster_cols = F,cluster_rows = F,
-         col=inferno(50),
-         # breaks = breaksList,
+         col=inferno(length(breaksList)),
+         breaks = breaksList,
          show_rownames = T,
          border_color = NA,
-         cellwidth = 20,cellheight = 20,
+         fontsize_row = 9,
+         cellwidth = 20,cellheight = 10,
          treeheight_row = 0,
          gaps_col = 3)
 
@@ -113,10 +116,11 @@ pheatmap(other.heatdata,
          scale='none',
          cluster_cols = F,cluster_rows = F,
          col=inferno(length(breaksList)),
-         # breaks = breaksList,
+         breaks = breaksList,
          show_rownames = T,
          border_color = NA,
-         cellwidth = 20,cellheight = 20,
+         fontsize_row = 9,
+         cellwidth = 20,cellheight = 10,
          treeheight_row = 0,
          gaps_col = 3)
 
@@ -173,7 +177,7 @@ SVMP <- all_info %>%
   geom_gene_arrow(arrowhead_height = unit(3, "mm"), arrowhead_width = unit(2, "mm"),show.legend = T) +
   ylab('') +
   xlab('') +
-  scale_fill_viridis_c(option = 'B') +
+  scale_fill_viridis_c(option = 'B',breaks=breaksList) +
   scale_x_continuous(labels = scales::comma,limits=c(13890000,14495000)) +
   theme_genes()
 SVMP
