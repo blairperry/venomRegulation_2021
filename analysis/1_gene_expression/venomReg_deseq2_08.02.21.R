@@ -25,20 +25,21 @@ rawCounts.simple <- merge(rawCounts.simple,tx2gene,by=1,all.x=T)
 row.names(rawCounts.simple) <- rawCounts.simple$V2
 rawCounts.simple <- rawCounts.simple[,c(-1,-30)]
 
-
-rawCounts.simple <- rawCounts.simple[rowSums( rawCounts.simple != 0 ) > 5,]
-
+rawCounts.simple <- rawCounts.simple %>% select(-8,-13,-14,-15,-16,-18,-4,-5,-6,-19,-20,-21,-22,-23,-24,-25,-28,-27,-26)
 colnames(rawCounts.simple) <- colnames(rawCounts.simple) %>% str_remove_all('..STAR_mapped.|Aligned.sortedByCoord.out.bam')
 
-rawCounts.simple <- rawCounts.simple %>% select(-2,-8,-14,-18,-4,-5,-6,-19,-20,-21,-22,-23,-24,-25,-28,-27,-26)
+rawCounts.simple <- rawCounts.simple[rowSums( rawCounts.simple != 0 ) >= 3,]
+
+test <- rawCounts.simple %>% rownames_to_column()
+
 
 colnames(rawCounts.simple)
 
 #################################################################################### INCLUDE JUST 1 TECH REP
 
 
-condition <- factor(c('NonVen','Ven','NonVen','NonVen','NonVen','Ven','Ven','NonVen','NonVen','NonVen','NonVen'))
-batch <- factor(c('1','1','1','2','2','2','2','1','2','2','1'))
+condition <- factor(c('NonVen','NonVen','Ven','NonVen','NonVen','NonVen','Ven','Ven','NonVen'))
+batch <- factor(c('2','2','1','1','2','2','2','2','1'))
 
 colData <- DataFrame(condition = condition,batch = batch)
 
@@ -69,11 +70,18 @@ ggplot(pcaData, aes(PC1, PC2, color=condition, label=name)) +
   coord_fixed() + theme_minimal()
 
 
+
+
+
 ###
 ### Venom vs. NonVenom
 ###
 
-deResVenomVsNonVen <- as.data.frame(results(dds, cooksCutoff = 10, contrast=c('condition','Ven','NonVen')))
+deResVenomVsNonVen <- as.data.frame(results(dds, contrast=c('condition','Ven','NonVen')))
+
+test <- as.data.frame(assays(dds)[["cooks"]]) %>% rownames_to_column()
+summary(results(dds, cooksCutoff = 1, contrast=c('condition','Ven','NonVen')))
+
 
 ihwRes <- ihw(pvalue ~ baseMean,  data = deResVenomVsNonVen, alpha = 0.05)
 
@@ -110,4 +118,4 @@ deResVenomVsNonVen$IHW_pvalue <- ihwRes@df$adj_pvalue
 
 deResVenomVsNonVen <- deResVenomVsNonVen[order(deResVenomVsNonVen$IHW_pvalue),]
 
-# write.csv(as.data.frame(deResVenomVsNonVen),file='./analysis/1_gene_expression/pairwise_results/cvv_Venom.vs.NonVenom_VG_PairwiseResult_08.02.21.csv',row.names = T)
+write.csv(as.data.frame(deResVenomVsNonVen),file='./analysis/1_gene_expression/pairwise_results/cvv_Venom.vs.NonVenom_VG_PairwiseResult_08.02.21.csv',row.names = T)

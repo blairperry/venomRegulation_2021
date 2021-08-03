@@ -1,0 +1,39 @@
+scaffold-ma1	169423774	169434684	Cysteine-rich secretory protein	maker-scaffold-ma1-augustus-gene-564.1	crovir-transcript-8573	CRISP_1
+scaffold-ma1	256551622	256564040	Glutaminyl cyclase	maker-scaffold-ma1-augustus-gene-855.11	crovir-transcript-9447	vQC_1
+scaffold-ma1	260248287	260272500	Vascular endothelial growth factor	maker-scaffold-ma1-augustus-gene-867.2	crovir-transcript-9439	VEGF_1
+scaffold-ma2	4377779	4385668	Vespryn/Ohanin	maker-scaffold-ma2-augustus-gene-14.15	crovir-transcript-13215	Vespryn
+scaffold-ma4	85461961	85468906	L-amino acid oxidase	maker-scaffold-ma4-augustus-gene-284.10	crovir-transcript-3893	LAAO_3
+scaffold-ma6	12590208	12591465	Exonuclease	maker-scaffold-ma6-augustus-gene-42.10	crovir-transcript-11720	Exonuclease_1
+scaffold-ma7	40288572	40327884	Vascular endothelial growth factor	maker-scaffold-ma7-augustus-gene-134.2	crovir-transcript-4609	VEGF_2
+scaffold-mi1	13901629	14014239	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.1	crovir-transcript-SVMP_1	SVMP_1
+scaffold-mi1	14022082	14075370	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.2	crovir-transcript-SVMP_2	SVMP_2
+scaffold-mi1	14091987	14112667	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.3	crovir-transcript-SVMP_3	SVMP_3
+scaffold-mi1	14147865	14170405	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.4	crovir-transcript-SVMP_4	SVMP_4
+scaffold-mi1	14174872	14190142	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.5	crovir-transcript-SVMP_5	SVMP_5
+scaffold-mi1	14211673	14242249	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.6	crovir-transcript-SVMP_6	SVMP_6
+scaffold-mi1	14248933	14272689	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.7	crovir-transcript-SVMP_7	SVMP_7
+scaffold-mi1	14281564	14300774	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.8	crovir-transcript-SVMP_8	SVMP_8
+scaffold-mi1	14310844	14338336	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.11	crovir-transcript-SVMP_11	SVMP_11
+scaffold-mi1	14368422	14393313	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.9	crovir-transcript-SVMP_9	SVMP_9
+scaffold-mi1	14401627	14424637	Snake venom metalloproteinase	fgenesh-scaffold-mi1-venom-gene-2.10	crovir-transcript-SVMP_10	SVMP_10
+scaffold-mi2	8569773	8575182	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.1	crovir-transcript-SVSP_1	SVSP_1
+scaffold-mi2	8588278	8593660	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.2	crovir-transcript-SVSP_2	SVSP_2
+scaffold-mi2	8628274	8636651	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.3	crovir-transcript-SVSP_3	SVSP_3
+scaffold-mi2	8664603	8670797	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.4	crovir-transcript-SVSP_4	SVSP_4
+scaffold-mi2	8707633	8717662	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.10	crovir-transcript-SVSP_10	SVSP_10
+scaffold-mi2	8739986	8745649	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.5	crovir-transcript-SVSP_5	SVSP_5
+scaffold-mi2	8752578	8759324	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.6	crovir-transcript-SVSP_6	SVSP_6
+scaffold-mi2	8786671	8797377	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.11	crovir-transcript-SVSP_11	SVSP_11
+scaffold-mi2	8864675	8879153	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.7	crovir-transcript-SVSP_7	SVSP_7
+scaffold-mi2	8937526	8947481	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.8	crovir-transcript-SVSP_8	SVSP_8
+scaffold-mi2	8960028	8980478	Serine Proteinase	fgenesh-scaffold-mi2-venom-gene-3.9	crovir-transcript-SVSP_9	SVSP_9
+scaffold-mi3	10271502	10274220	Exonuclease	maker-scaffold-mi3-augustus-gene-34.12	crovir-transcript-11292	Exonuclease_2
+scaffold-mi5	11650747	11653723	C-type lectin	maker-scaffold-mi5-augustus-gene-38.4	crovir-transcript-564	CTL
+scaffold-mi7	3019970	3021876	PLA2	fgenesh-scaffold-mi7-venom-gene-1.1	crovir-transcript-PLA2_gIIE	PLA2_gIIE
+scaffold-mi7	3027607	3029199	PLA2	fgenesh-scaffold-mi7-venom-gene-1.2	crovir-transcript-PLA2_B1	PLA2_B1
+scaffold-mi7	3031464	3033348	PLA2	fgenesh-scaffold-mi7-venom-gene-1.3	crovir-transcript-PLA2_K	PLA2_K
+scaffold-mi7	3037103	3038488	PLA2	fgenesh-scaffold-mi7-venom-gene-1.4	crovir-transcript-PLA2_C1	PLA2_C1
+scaffold-mi7	3042118	3043697	PLA2	fgenesh-scaffold-mi7-venom-gene-1.5	crovir-transcript-PLA2_A1	PLA2_A1
+scaffold-mi7	5091107	5094268	Glutaminyl cyclase	maker-scaffold-mi7-augustus-gene-17.22	crovir-transcript-1322	vQC_2
+scaffold-mi1	14438809	14454630	SVMP_NVP	ID=maker-scaffold-mi1-augustus-gene-48.17	crovir-transcript-12856	ADAM28_1
+scaffold-mi1	14469935	14491553	SVMP_NVP	ID=maker-scaffold-mi1-augustus-gene-48.19	crovir-transcript-12864	ADAM28_2
