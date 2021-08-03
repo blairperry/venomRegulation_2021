@@ -73,10 +73,10 @@ tf.all <- tf.dnaBinding %>%
 
 # Read in SE-associated genes
 
-# se.genes <- read_tsv('/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation/analyses/super_enhancers/SEtoGene_Association/Cvv_SEassocPairs_Genes.bed',col_names = F) %>% 
-#   mutate(longid = str_split_fixed(X4,'=',3)[,2]) %>% 
-#   mutate(longid = str_remove_all(longid,';Name')) %>% 
-#   left_join(longID.to.txID)
+se.genes <- read_tsv('./analysis/2_super_enhancers/SEtoGene_Association/Cvv_SEassocPairs_Genes.bed',col_names = F) %>%
+  mutate(longid = str_split_fixed(X4,'=',3)[,2]) %>%
+  mutate(longid = str_remove_all(longid,';Name')) %>%
+  left_join(longID.to.txID)
 
 
 # Adding columns denoting if/where TFs are upregulated, if they are SE-associated, and TF type
@@ -84,7 +84,7 @@ tf.all <- tf.dnaBinding %>%
 tf.normCounts <- all.normCounts %>% 
   filter(txid %in% tf.all$txid) %>% 
   mutate(Upreg.Ven.vs.NonVen = ifelse(txid %in% Ven.vs.NonVen.up$txid,T,F)) %>% 
-  # mutate(SEassociated = ifelse(txid %in% se.genes$txid,T,F)) %>% 
+  mutate(SEassociated = ifelse(txid %in% se.genes$txid,T,F)) %>%
   left_join(tf.all,by='txid') %>% 
   select(-longid) %>% 
   unique()
@@ -105,15 +105,15 @@ tf.reformat <- tf.normCounts %>%
 upreg.TFs <- tf.normCounts %>% filter(Upreg.Ven.vs.NonVen)
 
 upreg.TFs.pw <- Ven.vs.NonVen.up %>% filter(X1 %in% upreg.TFs$X1)
-# 40 upreg TFs
+# 111 upreg TFs
 
 
-write_csv(upreg.TFs,'./UpregulatedTFs_08.02.21.csv')
+write_csv(upreg.TFs,'./analysis/3_transcription_factors/UpregulatedTFs_08.02.21.csv')
 
-upreg.TFs.heatdata <- as.data.frame(upreg.TFs[,c(3,7,8,2,4,5,6,9,10,11,12)])
+upreg.TFs.heatdata <- as.data.frame(upreg.TFs[,c(4,8,9,2,3,5,6,7,10)])
 row.names(upreg.TFs.heatdata) <- upreg.TFs$id.y
 
-upreg.TFs.annot <- as.data.frame(upreg.TFs[,c(17:19)]*1)
+upreg.TFs.annot <- as.data.frame(upreg.TFs[,c(14,16:18)]*1)
 row.names(upreg.TFs.annot) <- upreg.TFs$id.y
 
 pheatmap(upreg.TFs.heatdata,
@@ -122,42 +122,16 @@ pheatmap(upreg.TFs.heatdata,
          color=viridis(50),
          border_color = NA,
          treeheight_row = 10,
-         cellwidth = 10,
-         cellheight = 10,
+         cellwidth = 7,
+         cellheight = 7,
          main = 'Upregulated TFs',
+         fontsize = 6,
          annotation_row = upreg.TFs.annot,
          gaps_col = 3,
          # filename='./figures/fig_pieces/Upreg_TFheatmap_02.12.21.pdf'
 )
 
 
-
-
-
-sum(upreg.TFs$X1 %in% Ven.vs.NonVen.up$X1)
-
-
-upreg.TFs.top10 <- upreg.TFs %>% left_join(Unext.vs.ODPE.pw) %>% top_n(n=10,wt=log2FoldChange)
-
-upreg.TFs.top10.heatdata <- as.data.frame(upreg.TFs.top10[,c(16,17,18,19,2,3,4,5,12,13,14,15,6,7,8,9,10,11)])
-row.names(upreg.TFs.top10.heatdata) <- upreg.TFs.top10$id.y
-
-upreg.TFs.top10.annot <- as.data.frame(upreg.TFs.top10[,28:26]*1)
-row.names(upreg.TFs.top10.annot) <- upreg.TFs.top10$id.y
-
-pheatmap(upreg.TFs.top10.heatdata,
-         cluster_cols = F,
-         scale='row',
-         color=viridis(50),
-         border_color = NA,
-         treeheight_row = 10,
-         cellwidth = 10,
-         cellheight = 10,
-         main = 'Gene Expression: Top 10 Upregulated TFs',
-         annotation_row = upreg.TFs.top10.annot,
-         gaps_col = 12,
-         # filename='./figures/fig_pieces/Upreg_TFheatmap_02.12.21.pdf'
-)
 
 
 
