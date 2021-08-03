@@ -100,7 +100,7 @@ tf.reformat <- tf.normCounts %>%
 
 
 # Upregulated TFs
-# Filter details: upregulated in 1DPE compared to Unextracted
+# Filter details: upregulated in Venom compared to NonVenom
 
 upreg.TFs <- tf.normCounts %>% filter(Upreg.Ven.vs.NonVen)
 
@@ -140,12 +140,12 @@ pheatmap(upreg.TFs.heatdata,
 
 seAssoc.TFs <- tf.normCounts %>% filter(SEassociated)
 
-#write_csv(seAssoc.TFs,'./SEassociatedTFs_09.25.20.csv')
+# write_csv(seAssoc.TFs,'./analysis/3_transcription_factors/SEassociatedTFs_08.03.21.csv')
 
-seAssoc.TFs.heatdata <- as.data.frame(seAssoc.TFs[,c(16,17,18,19,2,3,4,5,12,13,14,15,6,7,8,9,10,11)])
+seAssoc.TFs.heatdata <- as.data.frame(seAssoc.TFs[,c(4,8,9,2,3,5,6,7,10)])
 row.names(seAssoc.TFs.heatdata) <- seAssoc.TFs$id.y
 
-seAssoc.TFs.annot <- as.data.frame(seAssoc.TFs[,28:26]*1)
+seAssoc.TFs.annot <- as.data.frame(seAssoc.TFs[,16:18]*1)
 row.names(seAssoc.TFs.annot) <- seAssoc.TFs$id.y
 
 pheatmap(seAssoc.TFs.heatdata,
@@ -158,7 +158,7 @@ pheatmap(seAssoc.TFs.heatdata,
          cellheight = 10,
          main = 'SE-Associated TFs',
          annotation_row = seAssoc.TFs.annot,
-         gaps_col = 12,
+         gaps_col = 3,
          # filename='./figures/fig_pieces/SEassoc_TFheatmap_02.12.21.pdf'
 )
 
@@ -168,12 +168,12 @@ pheatmap(seAssoc.TFs.heatdata,
 
 test <- (union(upreg.TFs$X1,seAssoc.TFs$X1))
 
-both.upreg.SE.TFs <- tf.normCounts %>% filter(Upreg.Unext.vs.ODPE & SEassociated)
+both.upreg.SE.TFs <- tf.normCounts %>% filter(Upreg.Ven.vs.NonVen & SEassociated)
 
-both.upreg.SE.TFs.heatdata <- as.data.frame(both.upreg.SE.TFs[,c(16,17,18,19,2,3,4,5,12,13,14,15,6,7,8,9,10,11)])
+both.upreg.SE.TFs.heatdata <- as.data.frame(both.upreg.SE.TFs[,c(4,8,9,2,3,5,6,7,10)])
 row.names(both.upreg.SE.TFs.heatdata) <- both.upreg.SE.TFs$id.y
 
-both.upreg.SE.TFs.annot <- as.data.frame(both.upreg.SE.TFs[,28:26]*1)
+both.upreg.SE.TFs.annot <- as.data.frame(both.upreg.SE.TFs[,18:16]*1)
 row.names(both.upreg.SE.TFs.annot) <- both.upreg.SE.TFs$id.y
 
 pheatmap(both.upreg.SE.TFs.heatdata,
@@ -186,7 +186,7 @@ pheatmap(both.upreg.SE.TFs.heatdata,
          cellheight = 10,
          main = 'Upregulated AND SE-Associated TFs',
          annotation_row = both.upreg.SE.TFs.annot,
-         gaps_col = 12,
-         filename='./figures/fig_pieces/bothUpregAndSE_TFheatmap_09.23.20.pdf'
+         gaps_col = 3,
+         # filename='./figures/fig_pieces/bothUpregAndSE_TFheatmap_09.23.20.pdf'
 )
 
