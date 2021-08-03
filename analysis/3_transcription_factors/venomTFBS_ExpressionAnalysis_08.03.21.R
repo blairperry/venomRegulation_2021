@@ -67,8 +67,8 @@ tf.all <- tf.dnaBinding %>%
   mutate(ProtBinding = ifelse(longid %in% tf.protBinding$longid,T,F)) %>% 
   mutate(Coregulator = ifelse(longid %in% tf.coreg$longid,T,F))
 
-# write_tsv(tf.all,'allTFs_withTXIDs_03.21.21.txt')
-#write_tsv(as.data.frame(tf.all$id),'allTFs_forBackground_09.24.20.txt')
+# write_tsv(tf.all,'./analysis/3_transcription_factors/_functional_characterization/allTFs_withTXIDs_08.03.21.txt')
+# write_tsv(as.data.frame(tf.all$id),'./analysis/3_transcription_factors/_functional_characterization/allTFs_forBackground_08.03.21.txt')
 
 
 # Read in SE-associated genes
@@ -133,6 +133,11 @@ pheatmap(upreg.TFs.heatdata,
 
 
 
+# ALL CANDIDATE TFs = SE-associated TFs AND/OR Upregulated
+
+allCand.TFs <- tf.normCounts %>% filter(SEassociated | Upreg.Ven.vs.NonVen)
+
+write_tsv(allCand.TFs,'analysis/3_transcription_factors/allCandidateTFs_08.03.21.tsv')
 
 
 # SE-associated TFs
