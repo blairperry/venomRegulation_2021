@@ -1,0 +1,4 @@
+"SizeFactors.Reciprocal"
+"'RVG11_PostExt_ATAC.dedup.filtered.unique.rawCov'"	0.407608293169394
+"'RVG1_PostExt_ATAC.dedup.filtered.unique.rawCov'"	0.318243973985664
+"'RVG4_PostExt_ATAC.dedup.filtered.unique.rawCov'"	0.327073320585144
