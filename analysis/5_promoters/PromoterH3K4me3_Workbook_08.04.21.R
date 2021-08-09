@@ -4,9 +4,9 @@ library(ggsignif)
 library(ggbeeswarm)
 library(patchwork)
 
-ovrlp <- read_tsv('./analysis/4_promoters/PromoterH3K4me3_Overlap_12.08.20.bed',col_names = F)
+ovrlp <- read_tsv('./analysis/5_promoters/PromoterH3K4me3_Overlap_08.09.21.bed',col_names = F)
 
-all.prom <- read_tsv('./analysis/4_promoters/input_files/CvvGeneCoords_v2.bed',col_names = F)
+all.prom <- read_tsv('./analysis/5_promoters/CvvGeneCoords_forABC_08.09.21.bed',col_names = F)
 
 no.ovrlp <- all.prom %>% 
   mutate(txid = str_remove_all(X4,'ID=')) %>% 
