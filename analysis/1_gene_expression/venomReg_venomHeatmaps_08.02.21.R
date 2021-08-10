@@ -40,6 +40,7 @@ vg.1DPEavg <- vg.normcounts %>%
   mutate(avg1DPE = rowMeans(vg.normcounts[,3:5])) %>% 
   select(gene,avg1DPE)
 
+
 # write_tsv(vg.1DPEavg,'VG_1DPEAvgExpression_08.02.21.tsv')
 
 
