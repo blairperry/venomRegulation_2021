@@ -12,11 +12,14 @@
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F4_promoters%2FPromoterH3K4me3_Workbook_08.04.21.R="83B0F8D0"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F5_promoters%2FPromoterH3K4me3_Workbook_08.04.21.R="442C888A"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F5_promoters%2F_PromoterATACPeaks%2Fscripts%2FparseOverlapPeaks_08.09.21.R="78C911CA"
+<<<<<<< HEAD
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F5_promoters%2F_multitrack_plotting%2FPromoter_MultiTrackPlotting_08.09.21.R="7215D2ED"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F6_ABC_Enhancers%2FABC_EnhancerWorkbook_08.10.21.R="B121A64A"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F6_ABC_analysis%2FABC_EnhancerWorkbook_08.10.21.R="7FEDE20E"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_NEW_Aug2021%2Fanalysis%2F6_ABC_analysis%2Fmisc%2FabcGeneExpressionFilePrep_08.10.21.R="8249A034"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_OLD%2Fanalyses%2Fenhancer_prediction_ABC%2FABC_EnhancerWorkbook_02.26.21.R="0D1F93CB"
+=======
+>>>>>>> 12acd865853df43c0288bd53bfc09fb14ccd61e4
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_OLD%2Fanalyses%2Fgene_expression%2FVenomHeatmapsAndPlots_08.02.21.R="6D15857C"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_OLD%2Fanalyses%2Fgene_expression%2Fcvv_VenomRNAseq_DEseq2__08.02.21.R="49C8B9A0"
 ~%2FDropbox%2FCastoeLabFolder%2Fprojects%2FCVV_Gene_Regulation%2F_VenomGeneRegulation_OLD%2Fanalyses%2Ftranscription_factors%2FVenomTFBSExpression_New_08.02.21.R="C7A3F0EF"
