@@ -7,10 +7,10 @@ library(tidyverse)
 all.normcounts <- read_csv('./analysis/1_gene_expression/norm_counts/CvvVenomReg_RepRNAseq_wNonVen_VSTNormCounts_08.02.21.csv')
 
 # Read in full gene annotation
-all.annot <- read_tsv('./data/annotation/CroVir_rnd1.all.maker.final.homologIDs.updatedNov2019.GeneEntriesOnly.gff',col_names = F) %>% 
-  select(X9) %>% 
-  filter(str_detect(X9,'trna',negate = T),str_detect(X9,'scaffold-un',negate = T)) %>% 
-  mutate(txid = str_split_fixed(X9,'[;]',4)[,3] %>% str_remove_all('Crovir_Transcript_ID=')) %>% 
+all.annot <- read_tsv('./data/annotation/CroVir_rnd1.all.maker.final.homologIDs.updatedNov2019.GeneEntriesOnly.gff',col_names = F) %>%
+  select(X9) %>%
+  filter(str_detect(X9,'trna',negate = T),str_detect(X9,'scaffold-un',negate = T)) %>%
+  mutate(txid = str_split_fixed(X9,'[;]',4)[,3] %>% str_remove_all('Crovir_Transcript_ID=')) %>%
   select(txid)
 
 all.1DPEavg.abc_temp <- all.normcounts %>% 
@@ -24,4 +24,20 @@ all.1DPEavg.abc <- all.annot %>%
   left_join(all.1DPEavg.abc_temp,by=c('txid'='gene')) %>% 
   mutate(avg1DPE = ifelse(is.na(avg1DPE),0,avg1DPE))
 
-write_tsv(all.1DPEavg.abc,'./analysis/6_ABC_analysis/misc/allGenes_1DPEAvgExpression_08.10.21.txt',col_names = F)
+# write_tsv(all.1DPEavg.abc,'./analysis/6_ABC_analysis/misc/allGenes_1DPEAvgExpression_08.10.21.txt',col_names = F)
+
+
+all.annot.full <- read_tsv('./data/annotation/CroVir_rnd1.all.maker.final.homologIDs.updatedNov2019.GeneEntriesOnly.gff',col_names = F) %>%
+  filter(str_detect(X9,'trna',negate = T),str_detect(X9,'scaffold-un',negate = T)) %>%
+  mutate(txid = str_split_fixed(X9,'[;]',4)[,3] %>% str_remove_all('Crovir_Transcript_ID='))%>% 
+  select(txid,X1, X4, X5)
+
+all.1DPEavg.bedgraph <- all.normcounts %>% 
+  mutate(txid = str_split_fixed(X1,'[_]',2)[,2]) %>% 
+  mutate(avg1DPE = rowMeans(.[,c(4,8,9)])) %>% 
+  select(txid,avg1DPE) %>% 
+  left_join(all.annot.full) %>% 
+  select(3,4,5,2,1) %>% 
+  filter(!is.na(X4))
+
+# write_tsv(all.1DPEavg.bedgraph,'./analysis/6_ABC_Enhancers/misc/allGenes_1DPEAvgExpression_08.12.21.bedgraph',col_names = F)

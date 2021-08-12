@@ -25,6 +25,7 @@ ven.vs.nonven <- read_csv('./analysis/1_gene_expression/pairwise_results/cvv_Ven
   filter(log2FoldChange > 0) %>% 
   mutate(txid = str_split_fixed(X1,'_',2)[,2]) 
   
+  
 # Read in conversion table for simpler venom gene names
 
 ven.nameConvert <- read_tsv('./data/venom_annotation/VenomIDConvert.txt',col_names = c('txid','symbol'))
@@ -39,6 +40,7 @@ vg.normcounts <- all.normcounts %>%
 vg.1DPEavg <- vg.normcounts %>% 
   mutate(avg1DPE = rowMeans(vg.normcounts[,3:5])) %>% 
   select(gene,avg1DPE)
+
 
 
 # write_tsv(vg.1DPEavg,'VG_1DPEAvgExpression_08.02.21.tsv')
@@ -58,13 +60,26 @@ pla2.heatdata <- as.data.frame(pla2.normcounts[,c(-1,-2)])
 row.names(pla2.heatdata) <- pla2.normcounts$symbol
 pla2.heatdata <- pla2.heatdata[order(pla2.heatdata$ODPE_1,decreasing = T),]
 
+pla2.annotdata <- as_tibble(row.names(pla2.heatdata)) %>% 
+  left_join(ven.nameConvert,by=c('value'='symbol')) %>% 
+  left_join(ven.vs.nonven,by=c('txid'))
+
+
 svmp.heatdata <- as.data.frame(svmp.normcounts[,c(-1,-2)])
 row.names(svmp.heatdata) <- svmp.normcounts$symbol
 svmp.heatdata <- svmp.heatdata[order(svmp.heatdata$ODPE_1,decreasing = T),]
 
+svmp.annotdata <- as_tibble(row.names(svmp.heatdata)) %>% 
+  left_join(ven.nameConvert,by=c('value'='symbol')) %>% 
+  left_join(ven.vs.nonven,by=c('txid'))
+
 svsp.heatdata <- as.data.frame(svsp.normcounts[,c(-1,-2)])
 row.names(svsp.heatdata) <- svsp.normcounts$symbol
 svsp.heatdata <- svsp.heatdata[order(svsp.heatdata$ODPE_1,decreasing = T),]
+
+svsp.annotdata <- as_tibble(row.names(svsp.heatdata)) %>% 
+  left_join(ven.nameConvert,by=c('value'='symbol')) %>% 
+  left_join(ven.vs.nonven,by=c('txid'))
 
 other.heatdata <- as.data.frame(other.normcounts[,c(-1,-2)])
 row.names(other.heatdata) <- other.normcounts$symbol
