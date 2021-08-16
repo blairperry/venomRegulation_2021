@@ -13,7 +13,7 @@
 
 ## Parse ATAC-peak regions first and save in dictionary
 
-infile_atacPeaks = '/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_NEW_Aug2021/analysis/5_promoters/_PromoterATACPeaks/venom_promoterPeaks/allThree_ATACpeaks_PromWindows_08.09.21.bed'
+infile_atacPeaks = '/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_NEW_Aug2021/analysis/5_promoters/_PromoterATACPeaks/venom_promoterPeaks/allThree_ATACpeaks_PromWindows_08.16.21.bed'
 
 atac_peaks = {}
 
@@ -30,7 +30,7 @@ with open(infile_atacPeaks) as a1:
 
 infile_gff = '/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_NEW_Aug2021/data/annotation/CroVir_rnd1.all.maker.final.homologIDs.updatedNov2019.GeneEntriesOnly.gff'
 
-outfile = '/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_NEW_Aug2021/analysis/5_promoters/CvvGeneCoords_forABC_08.09.21.bed'
+outfile = '/Users/perryb/Dropbox/CastoeLabFolder/projects/CVV_Gene_Regulation/_VenomGeneRegulation_NEW_Aug2021/analysis/5_promoters/CvvGeneCoords_forABC_08.16.21.bed'
 
 with open(infile_gff) as a2, open(outfile,'w') as out:
     for line in a2.readlines():

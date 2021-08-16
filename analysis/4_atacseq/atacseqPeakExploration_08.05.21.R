@@ -38,8 +38,9 @@ focalPeaks <- mergedPeaks %>%
   nest(sample_nest=sample) %>% 
   mutate(samples = map_chr(sample_nest, ~ .[[1]] %>% str_c(collapse = "_"))) %>% 
   select(peakID,samples) %>% 
+  filter(str_detect(samples,'[_]')) %>% 
   separate(peakID,into = c('chr','start','end'),sep = '[_]')
 
 head(focalPeaks)
 
-write_tsv(focalPeaks,'analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.05.21.tsv')
+write_tsv(focalPeaks,'analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.16.21.tsv')

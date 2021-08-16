@@ -8,7 +8,7 @@ library(scales)
 
 
 pri_venom_genes <- read_tsv('./data/venom_annotation/PriorityVenomGenes_08.02.21.txt',col_names = F)
-exp <- read_tsv('./analysis/1_gene_expression/norm_counts/AllGenes_1DPEAvgExpression_08.08.21.tsv',col_names = c('txid','Avg1DPE')) %>% 
+exp <- read_tsv('./analysis/1_gene_expression/norm_counts/AllGenes_AvgMedianTPM_1DPE_08.02.21.tsv') %>% 
   filter(txid %in% pri_venom_genes$X6) %>%
   left_join(pri_venom_genes,by=c('txid'='X6')) %>% 
   mutate(gene = ifelse(str_detect(X7,'ADAM28',negate = T),str_replace_all(X7,'_',' '),X7))
@@ -54,15 +54,15 @@ svmp.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= SVMP.reg.start & start <= SVMP.reg.end) 
 
-svmp.atac.vg3.peaks <- read_tsv('analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.05.21.bed',
-                          col_names = c('chr','start','end','sample')) %>% 
+svmp.atac.vg3.peaks <- read_tsv('analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+                          col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi1') %>% 
   filter(end >= SVMP.reg.start & start <= SVMP.reg.end) 
 
 
 # Plotting
 
-p.svmp.genes <- ggplot(SVMP.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = Avg1DPE)) +
+p.svmp.genes <- ggplot(SVMP.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = log10(Median1DPE+1))) +
   ggrepel::geom_text_repel(data = all_info %>% 
                              filter(str_detect(gene,'SVMP')) %>% 
                              mutate(start = (start + end)/2), 
@@ -137,15 +137,15 @@ svsp.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= svsp.reg.start & start <= svsp.reg.end) 
 
-svsp.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.05.21.bed',
-                                col_names = c('chr','start','end','sample')) %>% 
+svsp.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+                                col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi2') %>% 
   filter(end >= svsp.reg.start & start <= svsp.reg.end) 
 
 
 # Plotting
 
-p.svsp.genes <- ggplot(svsp.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = Avg1DPE)) +
+p.svsp.genes <- ggplot(svsp.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = log10(Median1DPE+1))) +
   ggrepel::geom_text_repel(data = all_info %>% 
                              filter(str_detect(gene,'SVSP')) %>% 
                              mutate(start = (start + end)/2), 
@@ -229,15 +229,15 @@ pla2.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= pla2.reg.start & start <= pla2.reg.end) 
 
-pla2.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.05.21.bed',
-                                col_names = c('chr','start','end','sample')) %>% 
+pla2.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+                                col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi7') %>% 
   filter(end >= pla2.reg.start & start <= pla2.reg.end) 
 
 
 # Plotting
 
-p.pla2.genes <- ggplot(pla2.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = Avg1DPE)) +
+p.pla2.genes <- ggplot(pla2.info,aes(xmin = start, xmax = end, y = str_remove(molecule,'scaffold\\-'), forward = direction, fill = log10(Median1DPE+1))) +
   ggrepel::geom_text_repel(data = all_info %>% 
                              filter(str_detect(gene,'PLA2')) %>% 
                              mutate(start = (start + end)/2), 
