@@ -1,0 +1,6 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	TATGAGA	MEME-1	TATGAGA	7	6	3.3e-003	MEME	 	 	 
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.3.3 released on Sun Feb 7 15:39:52 2021 -0800
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc . -time 240 -ccut 100 -dna -neg NonVenom_Promoters_BoundFootprintRegs.fa -order 2 -minw 6 -maxw 15 -db db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme -db db/MOUSE/uniprobe_mouse.meme -db db/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 10 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 allVenom_Promoters_BoundFootprintRegs.fa

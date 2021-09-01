@@ -1,0 +1,10 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+meme.xml	YMYWAMWGRMWRYT	MEME-1	YMYWAMWGRMWRYT	streme.xml	5-AGAASTGGTTCYT	STREME-5	AGAASTGGTTCYT	0	0	.	.	.	8.85e-01	50	0	2	6	6.74e-03	5.90e-02
+meme.xml	YMYWAMWGRMWRYT	MEME-1	YMYWAMWGRMWRYT	meme.xml	ADCAGTGGT	MEME-6	ADCAGTGGT	0	0	.	.	.	1.98e+00	25	1	2	9	1.56e-02	1.32e-01
+meme.xml	YMYWAMWGRMWRYT	MEME-1	YMYWAMWGRMWRYT	meme.xml	ACAKGWATGAT	MEME-5	ACAKGWATGAT	0	0	.	.	.	4.25e+00	25	4	2	7	3.64e-02	2.84e-01
+meme.xml	YMYWAMWGRMWRYT	MEME-1	YMYWAMWGRMWRYT	meme.xml	TTTTMTTG	MEME-2	TTTTMTTG	0	0	.	.	.	4.53e+00	107	0	3	71	3.92e-02	3.02e-01
+meme.xml	YMYWAMWGRMWRYT	MEME-1	YMYWAMWGRMWRYT	meme.xml	TTCATG	MEME-3	TTCATG	0	0	.	.	.	6.34e+00	0	5	2	9	5.93e-02	4.23e-01
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.3.3 compiled on Feb 21 2021 at 14:52:40
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc spamo_out_1 -bgfile ./background -keepprimary -primary YMYWAMWGRMWRYT ./allVenom_Enhancers_BoundFootprintRegs.fa meme_out/meme.xml meme_out/meme.xml streme_out/streme.xml

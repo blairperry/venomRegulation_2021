@@ -1,0 +1,307 @@
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	0	0
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	14	14
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	36	36
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	40	48
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	102	102
+SVMP_vPER_Core:Consensus/1-413 Percentage Identity Consensus	180	180
+scaffold549 3500-3102 Deinagk	0	5
+scaffold549 3500-3102 Deinagk	14	14
+scaffold549 3500-3102 Deinagk	40	48
+scaffold549 3500-3102 Deinagk	84	84
+scaffold549 3500-3102 Deinagk	180	180
+scaffold549 3500-3102 Deinagk	227	233
+scaffold549 3500-3102 Deinagk	259	261
+scaffold242 77608-78005 Deinagk	0	1
+scaffold242 77608-78005 Deinagk	36	36
+scaffold242 77608-78005 Deinagk	40	48
+scaffold242 77608-78005 Deinagk	84	84
+scaffold242 77608-78005 Deinagk	102	102
+scaffold242 77608-78005 Deinagk	180	180
+scaffold242 77608-78005 Deinagk	227	233
+scaffold242 77608-78005 Deinagk	298	304
+dbj|BFFQ01002098.1| 187164-186763 Habu	0	4
+dbj|BFFQ01002098.1| 187164-186763 Habu	14	14
+dbj|BFFQ01002098.1| 187164-186763 Habu	36	36
+dbj|BFFQ01002098.1| 187164-186763 Habu	40	48
+dbj|BFFQ01002098.1| 187164-186763 Habu	102	102
+dbj|BFFQ01002098.1| 187164-186763 Habu	180	180
+dbj|BFFQ01002098.1| 187164-186763 Habu	227	233
+dbj|BFFQ01007560.1| 28117-27706 Habu	0	0
+dbj|BFFQ01007560.1| 28117-27706 Habu	14	14
+dbj|BFFQ01007560.1| 28117-27706 Habu	36	36
+dbj|BFFQ01007560.1| 28117-27706 Habu	40	48
+dbj|BFFQ01007560.1| 28117-27706 Habu	84	84
+dbj|BFFQ01007560.1| 28117-27706 Habu	102	102
+dbj|BFFQ01007560.1| 28117-27706 Habu	180	180
+dbj|BFFQ01007560.1| 39723-39314 Habu	0	0
+dbj|BFFQ01007560.1| 39723-39314 Habu	14	14
+dbj|BFFQ01007560.1| 39723-39314 Habu	36	36
+dbj|BFFQ01007560.1| 39723-39314 Habu	40	48
+dbj|BFFQ01007560.1| 39723-39314 Habu	84	84
+dbj|BFFQ01007560.1| 39723-39314 Habu	102	102
+dbj|BFFQ01007560.1| 39723-39314 Habu	180	180
+dbj|BFFQ01007560.1| 39723-39314 Habu	270	270
+dbj|BFFQ01007560.1| 39723-39314 Habu	355	355
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	0	0
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	14	14
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	36	36
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	40	48
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	102	102
+MT124581.1:42091-42503 Crotalus horridus clone ctg3724 A-type SVMP complex genomic sequence	180	180
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	0	0
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	14	14
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	36	36
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	40	48
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	102	102
+MT127551.1:131391-131803 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	180	180
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	0	0
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	14	14
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	36	36
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	40	48
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	102	102
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	168	172
+MT032003.1:598940-599347 Crotalus scutulatus B-type SVMP complex genomic sequence	180	180
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	0	0
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	14	14
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	36	36
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	40	48
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	84	84
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	102	102
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	168	172
+MT032003.1:355019-355425 Crotalus scutulatus B-type SVMP complex genomic sequence	180	180
+scaffold3006 4827-5239 Deinagk	0	0
+scaffold3006 4827-5239 Deinagk	14	14
+scaffold3006 4827-5239 Deinagk	36	36
+scaffold3006 4827-5239 Deinagk	40	48
+scaffold3006 4827-5239 Deinagk	84	84
+scaffold3006 4827-5239 Deinagk	102	102
+dbj|BFFQ01007560.1| 9945-9534 Habu	0	0
+dbj|BFFQ01007560.1| 9945-9534 Habu	14	14
+dbj|BFFQ01007560.1| 9945-9534 Habu	36	36
+dbj|BFFQ01007560.1| 9945-9534 Habu	40	48
+dbj|BFFQ01007560.1| 9945-9534 Habu	84	84
+dbj|BFFQ01007560.1| 9945-9534 Habu	102	102
+dbj|BFFQ01007560.1| 9945-9534 Habu	180	180
+scaffold2076 28846-29254 Deinagk	0	0
+scaffold2076 28846-29254 Deinagk	14	14
+scaffold2076 28846-29254 Deinagk	36	36
+scaffold2076 28846-29254 Deinagk	40	48
+scaffold2076 28846-29254 Deinagk	84	84
+scaffold2076 28846-29254 Deinagk	102	102
+scaffold2076 28846-29254 Deinagk	180	180
+scaffold2076 28846-29254 Deinagk	258	260
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	0	0
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	14	14
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	36	36
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	40	48
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	84	84
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	102	102
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	127	128
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	180	180
+MT019621.1:379069-379477 Crotalus atrox SVMP complex genomic sequence	344	344
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	0	0
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	14	14
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	36	36
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	40	48
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	84	84
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	102	102
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	127	128
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	180	180
+MT070611.1:182512-182920 Crotalus durissus terrificus SVMP complex L genomic sequence	344	344
+dbj|BFFQ01083757.1| 608-230 Habu	0	0
+dbj|BFFQ01083757.1| 608-230 Habu	14	14
+dbj|BFFQ01083757.1| 608-230 Habu	36	36
+dbj|BFFQ01083757.1| 608-230 Habu	40	48
+dbj|BFFQ01083757.1| 608-230 Habu	84	84
+dbj|BFFQ01083757.1| 608-230 Habu	102	102
+dbj|BFFQ01083757.1| 608-230 Habu	177	185
+dbj|BFFQ01083757.1| 608-230 Habu	355	355
+dbj|BFFQ01083757.1| 608-230 Habu	403	427
+scaffold2684 863-456 Deinagk	0	1
+scaffold2684 863-456 Deinagk	14	14
+scaffold2684 863-456 Deinagk	36	37
+scaffold2684 863-456 Deinagk	40	48
+scaffold2684 863-456 Deinagk	84	84
+scaffold2684 863-456 Deinagk	102	102
+scaffold2684 863-456 Deinagk	158	158
+scaffold2684 863-456 Deinagk	180	180
+scaffold2684 863-456 Deinagk	300	300
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	0	0
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	14	14
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	36	36
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	40	48
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	84	84
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	102	102
+MT032003.1:388977-389388 Crotalus scutulatus B-type SVMP complex genomic sequence	180	180
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	0	0
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	14	14
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	36	36
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	40	48
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	84	84
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	102	102
+MT019621.1:211978-212389 Crotalus atrox SVMP complex genomic sequence	180	180
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	0	0
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	14	14
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	36	36
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	40	48
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	84	84
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	102	102
+MT019621.1:217118-217529 Crotalus atrox SVMP complex genomic sequence	180	180
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	0	0
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	14	14
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	36	36
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	40	48
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	84	84
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	102	102
+MT019621.1:304735-305146 Crotalus atrox SVMP complex genomic sequence	180	180
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	0	0
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	14	14
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	36	36
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	40	48
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	84	84
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	102	102
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	127	128
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	168	172
+MT070611.1:172231-172635 Crotalus durissus terrificus SVMP complex L genomic sequence	180	180
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	0	0
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	14	14
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	36	36
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	40	48
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	84	84
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	102	102
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	127	128
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	168	172
+MT070611.1:220363-220767 Crotalus durissus terrificus SVMP complex L genomic sequence	180	180
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	0	0
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	14	14
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	36	36
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	40	48
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	69	77
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	102	102
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	127	128
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	168	172
+MT032003.1:432781-433177 Crotalus scutulatus B-type SVMP complex genomic sequence	180	180
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	0	0
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	14	14
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	36	36
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	40	48
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	84	84
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	102	102
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	168	172
+MT019621.1:989620-990026 Crotalus atrox SVMP complex genomic sequence	180	180
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	0	0
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	14	14
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	36	36
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	40	48
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	84	84
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	102	102
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	127	128
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	168	172
+MT124580.1:173533-173937 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	180	180
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	0	0
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	14	14
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	36	36
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	40	48
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	84	84
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	102	102
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	127	128
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	168	172
+MT127550.1:75362-75766 Crotalus horridus MDC-1 (mdc-1) gene, partial cds; MDC-2 (mdc-2) gene, complete cds; os3a, mdc-9, and os35 pseudogenes, complete sequence; MDC-4 (mdc-4) gene, complete cds; and MAD-3a (mad-3a) gene, partial cds	180	180
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	0	0
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	14	14
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	36	36
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	40	48
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	84	84
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	94	94
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	102	102
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	180	180
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	355	355
+MT032003.1:507468-507845 Crotalus scutulatus B-type SVMP complex genomic sequence	395	427
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	0	4
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	14	14
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	36	36
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	40	48
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	84	84
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	102	102
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	142	158
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	168	172
+MT070611.1:230870-231255 Crotalus durissus terrificus SVMP complex L genomic sequence	180	180
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	0	1
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	14	14
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	36	36
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	40	48
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	84	84
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	94	94
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	102	102
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	180	180
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	355	355
+MT070612.1:42154-42530 Crotalus durissus terrificus SVMP complex R genomic sequence	395	427
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	0	0
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	14	14
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	36	36
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	40	48
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	84	84
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	94	94
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	102	102
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	180	180
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	355	355
+MT127551.1:4070-4447 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	395	427
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	0	0
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	14	14
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	36	36
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	40	48
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	84	84
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	94	94
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	102	102
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	180	180
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	355	355
+MT124580.1:248141-248518 Crotalus horridus clone ctg124679 A-type SVMP complex genomic sequence	395	427
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	0	0
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	14	14
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	36	36
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	40	48
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	84	84
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	94	94
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	102	102
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	180	180
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	355	355
+MT127551.1:64275-64652 Crotalus horridus mad-3 gene, partial sequence; metalloproteinase fusuion protein 2 (mpf-2), metalloproteinase and disintegrin protein 3b (mad-3b), and metalloproteinase and disintegrin protein 4b (mad-4b) genes, complete cds; os23 pseudogene, complete sequence; metalloproteinase disintegrin and cysteine-rich protein 6 (mdc-6) and metalloproteinase disintegrin and cysteine-rich protein 7 (mdc-7) genes, complete cds; os67 pseudogene, complete sequence; metalloproteinase and disintegrin protein 5 (mad-5) gene, complete cds; os3b pseudogene, complete sequence; and metalloproteinase and disintegrin protein 6 (mad-6), metalloproteinase disintegrin and cysteine-rich protein 8 (mdc-8), neurofilament medium polypeptide (nefm), and neurofilament light polypeptide (nefl) genes, complete cds	395	427
+ref|NW_013660811.1| 1769-1579 Thamn	0	195
+ref|NW_013660811.1| 1769-1579 Thamn	206	232
+ref|NW_013660811.1| 1769-1579 Thamn	355	355
+ref|NW_013660811.1| 1769-1579 Thamn	415	427
+gb|CM019156.1| 8324395-8324001 Naja	0	0
+gb|CM019156.1| 8324395-8324001 Naja	14	14
+gb|CM019156.1| 8324395-8324001 Naja	36	36
+gb|CM019156.1| 8324395-8324001 Naja	84	84
+gb|CM019156.1| 8324395-8324001 Naja	102	102
+gb|CM019156.1| 8324395-8324001 Naja	180	180
+gb|CM019156.1| 8324395-8324001 Naja	206	232
+gb|CM019156.1| 8435004-8434611 Naja	0	0
+gb|CM019156.1| 8435004-8434611 Naja	14	14
+gb|CM019156.1| 8435004-8434611 Naja	36	36
+gb|CM019156.1| 8435004-8434611 Naja	84	84
+gb|CM019156.1| 8435004-8434611 Naja	102	102
+gb|CM019156.1| 8435004-8434611 Naja	180	180
+gb|CM019156.1| 8435004-8434611 Naja	206	232
+gb|CM019156.1| 8506019-8505626 Naja	0	0
+gb|CM019156.1| 8506019-8505626 Naja	14	14
+gb|CM019156.1| 8506019-8505626 Naja	36	36
+gb|CM019156.1| 8506019-8505626 Naja	84	84
+gb|CM019156.1| 8506019-8505626 Naja	102	102
+gb|CM019156.1| 8506019-8505626 Naja	180	180
+gb|CM019156.1| 8506019-8505626 Naja	206	232
+gb|CM019156.1| 8163348-8163536 Naja	0	0
+gb|CM019156.1| 8163348-8163536 Naja	14	14
+gb|CM019156.1| 8163348-8163536 Naja	36	36
+gb|CM019156.1| 8163348-8163536 Naja	84	84
+gb|CM019156.1| 8163348-8163536 Naja	102	102
+gb|CM019156.1| 8163348-8163536 Naja	180	180
+gb|CM019156.1| 8163348-8163536 Naja	195	427
+gb|CM019156.1| 8204021-8203827 Naja	0	0
+gb|CM019156.1| 8204021-8203827 Naja	14	14
+gb|CM019156.1| 8204021-8203827 Naja	36	36
+gb|CM019156.1| 8204021-8203827 Naja	84	84
+gb|CM019156.1| 8204021-8203827 Naja	102	102
+gb|CM019156.1| 8204021-8203827 Naja	180	180
+gb|CM019156.1| 8204021-8203827 Naja	201	427

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif YMYWAMWGRMWRYT meme_out/meme.xml ./allVenom_Enhancers_BoundFootprintRegs.fa</command-line>
+<pattern-file>meme_out/meme.xml</pattern-file>
+<sequence-file>./allVenom_Enhancers_BoundFootprintRegs.fa</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="YMYWAMWGRMWRYT" name="MEME-1">
+<scanned-sequence accession="scaffold-ma1" name="scaffold-ma1">
+<matched-element start="169417606" stop="169417619" score="11.3936" pvalue="7.88e-05">
+<sequence>TCTAAGAGGATTTT</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma1" name="scaffold-ma1">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma1" name="scaffold-ma1">
+<matched-element start="256566474" stop="256566461" score="12.383" pvalue="3.58e-05">
+<sequence>CATAACAGGATATG</sequence>
+<mem:qvalue>0.134</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma1" name="scaffold-ma1">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma2" name="scaffold-ma2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma2" name="scaffold-ma2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma2" name="scaffold-ma2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-ma4" name="scaffold-ma4">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+<matched-element start="14193910" stop="14193897" score="15.5532" pvalue="2.4e-07">
+<sequence>TCTTACTGACAGCT</sequence>
+<mem:qvalue>0.00255</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+<matched-element start="14246606" stop="14246593" score="15.5532" pvalue="2.4e-07">
+<sequence>TCTTACTGACAGCT</sequence>
+<mem:qvalue>0.00255</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+<matched-element start="14276982" stop="14276969" score="15.5532" pvalue="2.4e-07">
+<sequence>TCTTACTGACAGCT</sequence>
+<mem:qvalue>0.00255</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+<matched-element start="14304867" stop="14304854" score="15.5532" pvalue="2.4e-07">
+<sequence>TCTTACTGACAGCT</sequence>
+<mem:qvalue>0.00255</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi1" name="scaffold-mi1">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8535971" stop="8535984" score="11.4681" pvalue="7.47e-05">
+<sequence>CACTTCTGGATGTG</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8554124" stop="8554111" score="13.5426" pvalue="1.04e-05">
+<sequence>CACTAATGGCAATT</sequence>
+<mem:qvalue>0.074</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8561079" stop="8561092" score="12.883" pvalue="2.21e-05">
+<sequence>GATTTCTGGAAGCT</sequence>
+<mem:qvalue>0.094</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8737555" stop="8737542" score="11.117" pvalue="9.54e-05">
+<sequence>CCCTAGAGGAGATT</sequence>
+<mem:qvalue>0.184</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8748043" stop="8748030" score="11.4255" pvalue="7.7e-05">
+<sequence>CACAACTAGCAATT</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8799244" stop="8799257" score="13.1702" pvalue="1.62e-05">
+<sequence>CACAAAAGAATACT</sequence>
+<mem:qvalue>0.094</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8814017" stop="8814030" score="12.883" pvalue="2.21e-05">
+<sequence>TCCTTCAGAATATT</sequence>
+<mem:qvalue>0.094</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8849020" stop="8849033" score="12.0426" pvalue="4.79e-05">
+<sequence>TCCTTCAGAATTTT</sequence>
+<mem:qvalue>0.148</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8859794" stop="8859781" score="13.9787" pvalue="5.78e-06">
+<sequence>TACTACTGACTGTT</sequence>
+<mem:qvalue>0.0492</mem:qvalue>
+</matched-element>
+<matched-element start="8860323" stop="8860310" score="12.0213" pvalue="4.88e-05">
+<sequence>CATTACACAAAGCT</sequence>
+<mem:qvalue>0.148</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi2" name="scaffold-mi2">
+<matched-element start="8899325" stop="8899312" score="12.3191" pvalue="3.78e-05">
+<sequence>CCCAACAGGAAAAT</sequence>
+<mem:qvalue>0.134</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi5" name="scaffold-mi5">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi5" name="scaffold-mi5">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi5" name="scaffold-mi5">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+<matched-element start="3024415" stop="3024402" score="13" pvalue="1.95e-05">
+<sequence>GCTTAAAGGCAACT</sequence>
+<mem:qvalue>0.094</mem:qvalue>
+</matched-element>
+<matched-element start="3024479" stop="3024492" score="11.4043" pvalue="7.82e-05">
+<sequence>TCCTTAAGACAATG</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+<matched-element start="3030421" stop="3030434" score="11.3723" pvalue="8e-05">
+<sequence>CATTTCAAAATATT</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+<matched-element start="3035223" stop="3035236" score="11.4043" pvalue="7.82e-05">
+<sequence>CACAAGAAAAAACT</sequence>
+<mem:qvalue>0.162</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+<matched-element start="3044504" stop="3044491" score="11.9362" pvalue="5.22e-05">
+<sequence>CCCTAAAGACATTG</sequence>
+<mem:qvalue>0.148</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+</scanned-sequence>
+<scanned-sequence accession="scaffold-mi7" name="scaffold-mi7">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>

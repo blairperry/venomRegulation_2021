@@ -1,0 +1,23 @@
+##gff-version 3
+scaffold-ma1	fimo	nucleotide_motif	169417606	169417619	 41	+	.	Name=YMYWAMWGRMWRYT_scaffold-ma1+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-ma1;pvalue=7.88e-05;qvalue=0.162;sequence=TCTAAGAGGATTTT;
+scaffold-ma1	fimo	nucleotide_motif	256566461	256566474	44.5	-	.	Name=YMYWAMWGRMWRYT_scaffold-ma1-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-ma1;pvalue=3.58e-05;qvalue=0.134;sequence=CATAACAGGATATG;
+scaffold-mi1	fimo	nucleotide_motif	14193897	14193910	66.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi1-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi1;pvalue=2.4e-07;qvalue=0.00255;sequence=TCTTACTGACAGCT;
+scaffold-mi1	fimo	nucleotide_motif	14246593	14246606	66.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi1-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi1;pvalue=2.4e-07;qvalue=0.00255;sequence=TCTTACTGACAGCT;
+scaffold-mi1	fimo	nucleotide_motif	14276969	14276982	66.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi1-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi1;pvalue=2.4e-07;qvalue=0.00255;sequence=TCTTACTGACAGCT;
+scaffold-mi1	fimo	nucleotide_motif	14304854	14304867	66.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi1-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi1;pvalue=2.4e-07;qvalue=0.00255;sequence=TCTTACTGACAGCT;
+scaffold-mi2	fimo	nucleotide_motif	8535971	8535984	41.3	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi2+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=7.47e-05;qvalue=0.162;sequence=CACTTCTGGATGTG;
+scaffold-mi2	fimo	nucleotide_motif	8554111	8554124	49.8	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=1.04e-05;qvalue=0.074;sequence=CACTAATGGCAATT;
+scaffold-mi2	fimo	nucleotide_motif	8561079	8561092	46.5	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi2+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=2.21e-05;qvalue=0.094;sequence=GATTTCTGGAAGCT;
+scaffold-mi2	fimo	nucleotide_motif	8737542	8737555	40.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=9.54e-05;qvalue=0.184;sequence=CCCTAGAGGAGATT;
+scaffold-mi2	fimo	nucleotide_motif	8748030	8748043	41.1	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=7.7e-05;qvalue=0.162;sequence=CACAACTAGCAATT;
+scaffold-mi2	fimo	nucleotide_motif	8799244	8799257	47.9	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi2+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=1.62e-05;qvalue=0.094;sequence=CACAAAAGAATACT;
+scaffold-mi2	fimo	nucleotide_motif	8814017	8814030	46.5	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi2+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=2.21e-05;qvalue=0.094;sequence=TCCTTCAGAATATT;
+scaffold-mi2	fimo	nucleotide_motif	8849020	8849033	43.2	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi2+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=4.79e-05;qvalue=0.148;sequence=TCCTTCAGAATTTT;
+scaffold-mi2	fimo	nucleotide_motif	8859781	8859794	52.4	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=5.78e-06;qvalue=0.0492;sequence=TACTACTGACTGTT;
+scaffold-mi2	fimo	nucleotide_motif	8860310	8860323	43.1	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-2-scaffold-mi2;pvalue=4.88e-05;qvalue=0.148;sequence=CATTACACAAAGCT;
+scaffold-mi2	fimo	nucleotide_motif	8899312	8899325	44.2	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi2-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi2;pvalue=3.78e-05;qvalue=0.134;sequence=CCCAACAGGAAAAT;
+scaffold-mi7	fimo	nucleotide_motif	3024402	3024415	47.1	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi7-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi7;pvalue=1.95e-05;qvalue=0.094;sequence=GCTTAAAGGCAACT;
+scaffold-mi7	fimo	nucleotide_motif	3024479	3024492	41.1	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi7+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-2-scaffold-mi7;pvalue=7.82e-05;qvalue=0.162;sequence=TCCTTAAGACAATG;
+scaffold-mi7	fimo	nucleotide_motif	3030421	3030434	 41	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi7+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi7;pvalue=8e-05;qvalue=0.162;sequence=CATTTCAAAATATT;
+scaffold-mi7	fimo	nucleotide_motif	3035223	3035236	41.1	+	.	Name=YMYWAMWGRMWRYT_scaffold-mi7+;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi7;pvalue=7.82e-05;qvalue=0.162;sequence=CACAAGAAAAAACT;
+scaffold-mi7	fimo	nucleotide_motif	3044491	3044504	42.8	-	.	Name=YMYWAMWGRMWRYT_scaffold-mi7-;Alias=MEME-1;ID=YMYWAMWGRMWRYT-MEME-1-1-scaffold-mi7;pvalue=5.22e-05;qvalue=0.148;sequence=CCCTAAAGACATTG;

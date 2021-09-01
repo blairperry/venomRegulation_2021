@@ -1,0 +1,453 @@
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	38	48	ELF5	38	0.957	ACCAGGAAGCG	MA0136.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	64	73	TBX3	62	0.89	ATTGTGTAGC	MA1566.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	98	107	TBX3	95	0.854	AACGTGACAT	MA1566.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	33	42	TBX3	33	0.941	CTGGTGTTGC	MA1566.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	39	48	NFATC1	39	0.91	CGCTTCCTGG	MA0624.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	39	49	ELK4	39	0.896	TCGCTTCCTGG	MA0076.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	53	57	NFIX_split1	53	0.914	ACAGCCACA	MA0671.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	60	62	NFIX_split2	53	0.914	ACAGCCACA	MA0671.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	69	77	NFIX	67	0.983	GTAGCCAAG	MA0671.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	62	70	SOX9	60	0.923	CAATTGTGT	MA0077.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	132	140	SOX9	129	0.868	ATATTGTCC	MA0077.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	57	57	SOX9_split1	57	0.917	CAATTGTGG	MA0077.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	60	66	SOX9_split2	57	0.917	CAATTGTGG	MA0077.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	86	92	MEIS1	84	0.858	ATGACTG	MA0498.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	101	107	MEIS1	98	0.996	GTGACAT	MA0498.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	131	137	MEIS1	128	0.885	GGGACAA	MA0498.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	97	105	Creb3l2	94	0.86	GTCACGTTG	MA0608.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	11	22	ZNF341	11	0.927	GATAACAGCAGT	MA1655.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	49	57	ZNF341_split1	49	0.995	AAGAACAGCCAC	MA1655.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	60	61	ZNF341_split2	49	0.995	AAGAACAGCCAC	MA1655.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	36	50	EHF	36	0.898	TTCGCTTCCTGGTGT	MA0598.3
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	103	113	SPDEF	100	0.933	CCCCGGATGTC	MA0686.1
+KX211994.1:37271-37415 Crotalus atrox clone 152_I6 genomic sequence	98	103	Arnt	95	0.928	AACGTG	MA0004.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	97	105	Creb3l2	94	0.86	GTCACGTTG	MA0608.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	82	90	Creb3l2	80	0.86	GTCACGTTG	MA0608.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	39	48	NFATC1	39	0.91	CGCTTCCTGG	MA0624.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	103	113	SPDEF	100	0.933	CCCCGGATGTC	MA0686.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	83	88	Arnt	81	0.928	AACGTG	MA0004.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	98	103	Arnt	95	0.928	AACGTG	MA0004.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	36	50	EHF	36	0.898	TTCGCTTCCTGGTGT	MA0598.3
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	38	48	ELF5	38	0.957	ACCAGGAAGCG	MA0136.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	39	49	ELK4	39	0.896	TCGCTTCCTGG	MA0076.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	11	22	ZNF341	11	0.927	GATAACAGCAGT	MA1655.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	49	57	ZNF341_split1	49	0.995	AAGAACAGCCAC	MA1655.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	60	61	ZNF341_split2	49	0.995	AAGAACAGCCAC	MA1655.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	62	70	SOX9	60	0.923	CAATTGTGT	MA0077.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	132	140	SOX9	129	0.868	ATATTGTCC	MA0077.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	57	57	SOX9_split1	57	0.917	CAATTGTGG	MA0077.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	60	66	SOX9_split2	57	0.917	CAATTGTGG	MA0077.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	64	73	TBX3	62	0.89	ATTGTGTAGC	MA1566.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	98	107	TBX3	95	0.854	AACGTGACAT	MA1566.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	118	127	TBX3	115	0.864	TGGGTGCCTG	MA1566.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	33	42	TBX3	33	0.941	CTGGTGTTGC	MA1566.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	86	92	MEIS1	84	0.856	GTGACTG	MA0498.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	101	107	MEIS1	98	0.996	GTGACAT	MA0498.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	131	137	MEIS1	128	0.885	GGGACAA	MA0498.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	53	57	NFIX_split1	53	0.914	ACAGCCACA	MA0671.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	60	62	NFIX_split2	53	0.914	ACAGCCACA	MA0671.1
+KX211996.1:24729-24873 Crotalus adamanteus clone 29M24 genomic sequence	69	77	NFIX	67	0.983	GTAGCCAAG	MA0671.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	89	98	TBX3	89	0.896	ATTGTGTCCG	MA1566.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	69	77	NFIX	69	0.91	GCGGCCACG	MA0671.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	87	95	SOX9	87	0.881	TCATTGTGT	MA0077.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KM488542.1:7072-7219 Ovophis okinavensis polymorphism; leading to a stop codon:INSD:D49391.1 (gPLA2-03) pseudogene; complete sequence; phospholipase A2 precursor (OoIIEPLA2) gene; complete cds; and ovarian tumor domain-containing protein 3 (OTUD3) gene; exon 8 and partial cds	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	83	84	SREBF2_split1	83	0.9	ATGCAGTGAT	MA0596.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	88	94	SREBF2_split2	83	0.9	ATGCAGTGAT	MA0596.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	132	140	SOX9	129	0.868	ATATTGTCC	MA0077.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	59	67	SOX9	59	0.927	CTATTGTGG	MA0077.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	83	84	SREBF1_split1	83	0.887	ATCACTGCAT	MA0595.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	88	94	SREBF1_split2	83	0.887	ATCACTGCAT	MA0595.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAA	MA0671.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	131	137	MEIS1	128	0.885	GGGACAA	MA0498.2
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	103	113	SPDEF	100	0.898	TCCCGGATGCC	MA0686.1
+KX211996.1:28717-28861 Crotalus adamanteus clone 29M24 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	14	25	Ddit3::Cebpa	14	0.927	AGCTGCAATCAT	MA0019.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAA	MA0671.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	100	108	NFIX	100	1	GATGCCAAG	MA0671.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	86	95	SREBF2	86	0.85	ATGCACTGAT	MA0596.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	103	113	SPDEF	103	0.898	TCCCGGATGCC	MA0686.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211993.1:74203-74350 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	99	108	NFIA	99	0.999	GATGCCAAGA	MA0670.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	86	95	SREBF2	86	0.9	ATGCAGTGAT	MA0596.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	14	25	Ddit3::Cebpa	14	0.927	AGCTGCAATCAT	MA0019.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAA	MA0671.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	86	95	SREBF1	86	0.887	ATCACTGCAT	MA0595.1
+KX211993.1:62987-63134 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	86	95	SREBF1	86	0.879	GTCACTGCAT	MA0595.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+dbj|BFFQ01005568.1| 7353-7206 Habu	84	90	MEIS1	84	0.864	GTGACGT	MA0498.2
+dbj|BFFQ01005568.1| 7353-7206 Habu	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+dbj|BFFQ01005568.1| 7353-7206 Habu	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	69	77	NFIX	69	0.979	GCGGCCAAA	MA0671.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+dbj|BFFQ01005568.1| 7353-7206 Habu	86	95	SREBF2	86	0.888	ATGCAGTGAC	MA0596.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+dbj|BFFQ01005568.1| 7353-7206 Habu	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+dbj|BFFQ01005568.1| 7353-7206 Habu	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	86	95	SREBF2	86	0.888	ATGCAGTGAC	MA0596.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	84	90	MEIS1	84	0.864	GTGACGT	MA0498.2
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	69	77	NFIX	69	0.979	GCGGCCAAA	MA0671.1
+AB588615.1:1106-1253 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	86	95	SREBF1	86	0.879	GTCACTGCAT	MA0595.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	110	118	NFIX	110	0.912	GGGGCCATT	MA0671.1
+KX211996.1:14838-14985 Crotalus adamanteus clone 29M24 genomic sequence	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	110	118	NFIX	110	0.912	GGGGCCATT	MA0671.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+XM_039367442.1:1497-1644 PREDICTED: Crotalus tigris OTU deubiquitinase 3 (OTUD3); transcript variant X3; mRNA	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	110	118	NFIX	110	0.912	GGGGCCATT	MA0671.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211993.1:59065-59212 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	92	98	MEIS1	92	0.886	CGGACAT	MA0498.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211995.1:47413-47560 Crotalus atrox clone 91_J7 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	92	98	MEIS1	92	0.886	CGGACAT	MA0498.2
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211994.1:21928-22075 Crotalus atrox clone 152_I6 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	55	63	NFIX	55	0.914	AGAGCCACA	MA0671.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211993.1:46841-46988 Crotalus scutulatus scutulatus clone 102_I5 genomic sequence	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	131	137	MEIS1	129	0.885	GGGACAA	MA0498.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	92	98	MEIS1	90	0.886	CGGACAC	MA0498.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	84	90	MEIS1	82	0.864	GTGACGT	MA0498.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	19	25	MEIS1	17	0.858	ATGACTG	MA0498.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	103	113	SPDEF	101	0.89	CCCCGGATGCA	MA0686.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	49	ELK4	37	0.868	TTGCTTCCAGG	MA0076.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	62	70	SOX9	60	0.925	CAATTGTGC	MA0077.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	132	140	SOX9	130	0.868	ATATTGTCC	MA0077.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	59	67	SOX9	57	0.917	CAATTGTGG	MA0077.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	38	48	ELF5	36	0.934	ACCTGGAAGCA	MA0136.2
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	48	NFATC1	37	0.943	TGCTTCCAGG	MA0624.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	69	77	NFIX	67	0.979	GCGGCCAAG	MA0671.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	89	98	TBX3	87	0.893	ACTGTGTCCG	MA1566.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	33	42	TBX3	31	0.957	CAGGTGTTGC	MA1566.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	35	44	FIGLA	33	0.993	AACACCTGGA	MA0820.1
+AB440236.1:11837-11982 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	24	29	Arid3a	22	0.86	ATGAAC	MA0151.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	84	90	MEIS1	84	0.864	GTGACGT	MA0498.2
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	103	113	SPDEF	103	0.89	CCCCGGATGCA	MA0686.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	86	95	SREBF2	86	0.888	ATGCAGTGAC	MA0596.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+AB440236.1:17128-17275 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	86	95	SREBF1	86	0.879	GTCACTGCAT	MA0595.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	69	77	NFIX	67	0.979	GCGGCCAAG	MA0671.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	39	48	NFATC1	37	0.943	TGCTTCCAGG	MA0624.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	33	42	TBX3	31	0.957	CAGGTGTTGC	MA1566.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	62	70	SOX9	60	0.925	CAATTGTGC	MA0077.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	132	140	SOX9	130	0.868	ATATTGTCC	MA0077.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	59	67	SOX9	57	0.917	CAATTGTGG	MA0077.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	86	95	SREBF1	84	0.879	GTCACTGCAT	MA0595.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	35	44	FIGLA	33	0.993	AACACCTGGA	MA0820.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	131	137	MEIS1	129	0.885	GGGACAA	MA0498.2
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	84	90	MEIS1	82	0.864	GTGACGT	MA0498.2
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	19	25	MEIS1	17	0.858	ATGACTG	MA0498.2
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	103	113	SPDEF	101	0.89	CCCCGGATGCA	MA0686.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	24	29	Arid3a	22	0.86	ATGAAC	MA0151.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	86	95	SREBF2	84	0.888	ATGCAGTGAC	MA0596.1
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	39	49	ELK4	37	0.868	TTGCTTCCAGG	MA0076.2
+AB588615.1:5235-5380 Trimeresurus flavoviridis PfPLA6 gene for Phospholipase A2; complete cds	38	48	ELF5	36	0.934	ACCTGGAAGCA	MA0136.2
+dbj|BFFQ01005568.1| 3064-3209 Habu	103	113	SPDEF	101	0.89	CCCCGGATGCA	MA0686.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	24	29	Arid3a	22	0.86	ATGAAC	MA0151.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	35	44	FIGLA	33	0.993	AACACCTGGA	MA0820.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	33	42	TBX3	31	0.957	CAGGTGTTGC	MA1566.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	86	95	SREBF1	84	0.879	GTCACTGCAT	MA0595.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	69	77	NFIX	67	0.979	GCGGCCAAG	MA0671.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	131	137	MEIS1	129	0.885	GGGACAA	MA0498.2
+dbj|BFFQ01005568.1| 3064-3209 Habu	84	90	MEIS1	82	0.864	GTGACGT	MA0498.2
+dbj|BFFQ01005568.1| 3064-3209 Habu	19	25	MEIS1	17	0.858	ATGACTG	MA0498.2
+dbj|BFFQ01005568.1| 3064-3209 Habu	39	49	ELK4	37	0.868	TTGCTTCCAGG	MA0076.2
+dbj|BFFQ01005568.1| 3064-3209 Habu	62	70	SOX9	60	0.925	CAATTGTGC	MA0077.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	132	140	SOX9	130	0.868	ATATTGTCC	MA0077.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	59	67	SOX9	57	0.917	CAATTGTGG	MA0077.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	39	48	NFATC1	37	0.943	TGCTTCCAGG	MA0624.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	86	95	SREBF2	84	0.888	ATGCAGTGAC	MA0596.1
+dbj|BFFQ01005568.1| 3064-3209 Habu	38	48	ELF5	36	0.934	ACCTGGAAGCA	MA0136.2
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	86	95	SREBF2	84	0.888	ATGCAGTGAC	MA0596.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	35	44	FIGLA	33	0.993	AACACCTGGA	MA0820.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	103	113	SPDEF	101	0.89	CCCCGGATGCA	MA0686.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	48	NFATC1	37	0.943	TGCTTCCAGG	MA0624.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	62	70	SOX9	60	0.925	CAATTGTGC	MA0077.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	132	140	SOX9	130	0.868	ATATTGTCC	MA0077.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	59	67	SOX9	57	0.917	CAATTGTGG	MA0077.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	39	49	ELK4	37	0.868	TTGCTTCCAGG	MA0076.2
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	38	48	ELF5	36	0.934	ACCTGGAAGCA	MA0136.2
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	86	95	SREBF1	84	0.879	GTCACTGCAT	MA0595.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	33	42	TBX3	31	0.957	CAGGTGTTGC	MA1566.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	69	77	NFIX	67	0.979	GCGGCCAAG	MA0671.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	24	29	Arid3a	22	0.86	ATGAAC	MA0151.1
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	131	137	MEIS1	129	0.885	GGGACAA	MA0498.2
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	84	90	MEIS1	82	0.864	GTGACGT	MA0498.2
+AB440236.1:24657-24802 Trimeresurus flavoviridis phospholipase A2 gene cluster (PfPLA1(psi); PfPLA2; PfPLA3(psi); PfPLA4; PfPLA5)	19	25	MEIS1	17	0.858	ATGACTG	MA0498.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	131	137	MEIS1	125	0.885	GGGACAA	MA0498.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	84	90	MEIS1	84	0.864	GTGACGT	MA0498.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	132	140	SOX9	126	0.868	ATATTGTCC	MA0077.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KM488541.1:7163-7304 Protobothrops elegans PeBP(R)-II precursor (PeBP(R)-II) and phospholipase A2 precursor (PeIIEPLA2) genes; complete cds	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	110	121	ZNF341	104	0.942	CCCAACAGCCCC	MA1655.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	132	140	SOX9	126	0.868	ATATTGTCC	MA0077.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	131	137	MEIS1	125	0.885	GGGACAA	MA0498.2
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KM488540.1:8873-9014 Protobothrops tokarensis phospholipase A2 precursor (PtPLA-B) and phospholipase A2 precursor (PtIIEPLA2) genes; complete cds	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	69	77	NFIX	69	0.979	GCGGCCAAG	MA0671.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	29	37	NFIX	29	1	GTTGCCAAG	MA0671.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	28	37	NFIA	28	0.999	GTTGCCAAGT	MA0670.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	132	140	SOX9	126	0.868	ATATTGTCC	MA0077.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	59	67	SOX9	59	0.917	CAATTGTGG	MA0077.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	110	121	ZNF341	104	0.942	CCCAACAGCCCC	MA1655.1
+dbj|BFFQ01003251.1| 337136-337277 Habu	131	137	MEIS1	125	0.885	GGGACAA	MA0498.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	19	25	MEIS1	19	0.858	ATGACTG	MA0498.2
+dbj|BFFQ01003251.1| 337136-337277 Habu	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	86	92	MEIS1	86	0.856	GTGACTG	MA0498.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	82	90	Creb3l2	82	0.86	GTCACGTTG	MA0608.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	56	65	TBX3	56	0.892	ATTGTGTTCC	MA1566.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	83	88	Arnt	83	0.928	AACGTG	MA0004.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	53	62	NFATC1	53	0.918	GTGTTCCTGT	MA0624.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	52	62	ELF5	52	0.884	AACAGGAACAC	MA0136.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211995.1:71812-71959 Crotalus atrox clone 91_J7 genomic sequence	59	67	SOX9	59	0.923	CAATTGTGT	MA0077.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	53	62	NFATC1	53	0.918	GTGTTCCTGT	MA0624.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	39	48	NFATC1	39	0.943	TGCTTCCAGG	MA0624.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	56	65	TBX3	56	0.892	ATTGTGTTCC	MA1566.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	33	42	TBX3	33	0.957	CAGGTGTTGC	MA1566.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	35	44	FIGLA	35	0.993	AACACCTGGA	MA0820.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	39	49	ELK4	39	0.868	TTGCTTCCAGG	MA0076.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	38	48	ELF5	38	0.934	ACCTGGAAGCA	MA0136.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	52	62	ELF5	52	0.884	AACAGGAACAC	MA0136.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	59	67	SOX9	59	0.923	CAATTGTGT	MA0077.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	103	113	SPDEF	103	0.887	CCCCGGATGCC	MA0686.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	86	92	MEIS1	86	0.856	GTGACTG	MA0498.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	82	90	Creb3l2	82	0.86	GTCACGTTG	MA0608.1
+KX211994.1:31621-31768 Crotalus atrox clone 152_I6 genomic sequence	83	88	Arnt	83	0.928	AACGTG	MA0004.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	11	22	ZNF341	11	0.927	GATAACAGCAAT	MA1655.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	82	90	Creb3l2	82	0.86	GTCACGTTG	MA0608.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	89	98	TBX3	89	0.893	ACTGTGTCCG	MA1566.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	56	65	TBX3	56	0.892	ATTGTGTTCC	MA1566.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	33	42	TBX3	33	0.941	CTGGTGTTGC	MA1566.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	38	48	ELF5	38	0.958	ACCAGGAAGCA	MA0136.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	52	62	ELF5	52	0.884	AACAGGAACAC	MA0136.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	62	70	SOX9	62	0.925	CAATTGTGC	MA0077.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	132	140	SOX9	132	0.868	ATATTGTCC	MA0077.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	59	67	SOX9	59	0.923	CAATTGTGT	MA0077.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	39	49	ELK4	39	0.886	TTGCTTCCTGG	MA0076.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	36	50	EHF	36	0.884	TTTGCTTCCTGGTGT	MA0598.3
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	69	77	NFIX	69	0.983	GCAGCCAAG	MA0671.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	24	29	Arid3a	24	0.86	ATGAAC	MA0151.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	86	92	MEIS1	86	0.856	GTGACTG	MA0498.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	101	107	MEIS1	101	0.89	TCGACAT	MA0498.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	131	137	MEIS1	131	0.885	GGGACAA	MA0498.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	92	98	MEIS1	92	0.886	CGGACAC	MA0498.2
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	53	62	NFATC1	53	0.918	GTGTTCCTGT	MA0624.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	39	48	NFATC1	39	0.913	TGCTTCCTGG	MA0624.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	103	113	SPDEF	103	0.933	CCCCGGATGTC	MA0686.1
+PLA2_vPER_Core:Consensus/1-148 Percentage Identity Consensus	83	88	Arnt	83	0.928	AACGTG	MA0004.1

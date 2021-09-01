@@ -1,0 +1,13 @@
+##gff-version 3
+scaffold-mi1	fimo	nucleotide_motif	14075448	14075454	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14075493	14075499	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-2-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14190219	14190225	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14190264	14190270	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-2-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14242326	14242332	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14272766	14272772	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14272811	14272817	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-2-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14300851	14300857	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14300896	14300902	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-2-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14338459	14338465	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14393390	14393396	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-1-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;
+scaffold-mi1	fimo	nucleotide_motif	14393435	14393441	43.8	+	.	Name=TATGAGA_scaffold-mi1+;Alias=MEME-1;ID=TATGAGA-MEME-1-2-scaffold-mi1;pvalue=4.13e-05;qvalue=0.0592;sequence=TATGAGA;

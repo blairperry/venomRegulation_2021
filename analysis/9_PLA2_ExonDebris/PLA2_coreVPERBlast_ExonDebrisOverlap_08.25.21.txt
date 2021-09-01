@@ -1,0 +1,4 @@
+scaffold-mi7	3030530	3030571	Name=ExonDebris_g2E_e3	scaffold-mi7	3030424	3030571	PLA2_vPER_Core:Consensus/1-148
+scaffold-mi7	3035032	3035069	Name=ExonDebris_g2E_e3	scaffold-mi7	3035032	3035177	PLA2_vPER_Core:Consensus/1-148
+scaffold-mi7	3039539	3039580	Name=ExonDebris_g2E_e3	scaffold-mi7	3039433	3039580	PLA2_vPER_Core:Consensus/1-148
+scaffold-mi7	3020694	3020841	Name=PLA2gIIE	scaffold-mi7	3020694	3020841	PLA2_vPER_Core:Consensus/1-148

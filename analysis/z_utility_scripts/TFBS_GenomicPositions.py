@@ -29,30 +29,56 @@ if enr_res == 'all':
             if ':' not in line[0]:
                 print 'Ignoring ' + line[0]
             else:
-                scaff = line[0].split(':')[2]
-                region_start = int(line[0].split(':')[-1][:-3].split('-')[0])
-                region_end = int(line[0].split(':')[-1][:-3].split('-')[1])
-                
+                if len(line[0].split(':')) > 2:
+                    scaff = line[0].split(':')[2]
+                    region_start = int(line[0].split(':')[-1][:-3].split('-')[0])
+                    region_end = int(line[0].split(':')[-1][:-3].split('-')[1])
+                    
 
-                tfbs_start = int(line[4])
-                tfbs_stop = int(line[5])
+                    tfbs_start = int(line[4])
+                    tfbs_stop = int(line[5])
 
-                if line[0][-2] == '-':
+                    if line[0][-2] == '-':
 
-                    new_tfbs_start = region_end - tfbs_stop
-                    new_tfbs_stop = region_end - tfbs_start
+                        new_tfbs_start = region_end - tfbs_stop
+                        new_tfbs_stop = region_end - tfbs_start
 
-                elif line[0][-2] == '+':
+                    elif line[0][-2] == '+':
 
-                    new_tfbs_start = region_start + tfbs_start
-                    new_tfbs_stop = region_start + tfbs_stop
+                        new_tfbs_start = region_start + tfbs_start
+                        new_tfbs_stop = region_start + tfbs_stop
 
+                    else:
+                        new_tfbs_start = region_start + tfbs_start
+                        new_tfbs_stop = region_start + tfbs_stop
+
+
+                    print >> out, '\t'.join([scaff, str(new_tfbs_start), str(new_tfbs_stop), ';'.join(line)])
                 else:
-                    new_tfbs_start = region_start + tfbs_start
-                    new_tfbs_stop = region_start + tfbs_stop
+                    scaff = line[0].split(':')[0]
+                    region_start = int(line[0].split(':')[-1][:-3].split('-')[0])
+                    region_end = int(line[0].split(':')[-1][:-3].split('-')[1])
+                    
+
+                    tfbs_start = int(line[4])
+                    tfbs_stop = int(line[5])
+
+                    if line[0][-2] == '-':
+
+                        new_tfbs_start = region_end - tfbs_stop
+                        new_tfbs_stop = region_end - tfbs_start
+
+                    elif line[0][-2] == '+':
+
+                        new_tfbs_start = region_start + tfbs_start
+                        new_tfbs_stop = region_start + tfbs_stop
+
+                    else:
+                        new_tfbs_start = region_start + tfbs_start
+                        new_tfbs_stop = region_start + tfbs_stop
 
 
-                print >> out, '\t'.join([scaff, str(new_tfbs_start), str(new_tfbs_stop), ';'.join(line)])
+                    print >> out, '\t'.join([scaff, str(new_tfbs_start), str(new_tfbs_stop), ';'.join(line)])
 else:
     with open(enr_res) as a:
         for line in a.readlines()[1:]:

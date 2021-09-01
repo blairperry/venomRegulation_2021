@@ -1,0 +1,1 @@
+Warning: Eliminated 9 sequences that were too short to be scanned with the current margin (150) and primary motif length (14). Sequences must be at least 314 long.

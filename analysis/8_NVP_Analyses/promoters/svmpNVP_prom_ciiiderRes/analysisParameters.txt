@@ -1,0 +1,8 @@
+GENELISTFILENAME=/var/folders/fd/vl3srds15ng9hd3lgy6_gx7c0000gq/T/Text2290501827520382282.tmp
+MATRIXFILE=/Users/perryb/Downloads/CiiiDER_TFMs/Matrices/NEW_secondRoundFiltered_JASPAR2020_CORE_NR_08.06.21.ml
+DEFICIT=0.15
+GENELISTFILENAME=/var/folders/fd/vl3srds15ng9hd3lgy6_gx7c0000gq/T/Text2290501827520382282.tmp
+
+MATRIXFILE=/Users/perryb/Downloads/CiiiDER_TFMs/Matrices/NEW_secondRoundFiltered_JASPAR2020_CORE_NR_08.06.21.ml
+DEFICIT=0.15
+PROCESSORS=3

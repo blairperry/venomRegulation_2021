@@ -1,0 +1,267 @@
+id	feature	value
+FOXC2	Upregulated (RNA-seq)	TRUE
+FOXC2	SE-Associated (ChIP-seq)	FALSE
+FOXC2	Previously implicated in venom regulation	TRUE
+FOXC2	Interacts with ERK	FALSE
+FOXC2	Adrenoceptor Signaling Pathway	FALSE
+FOXC2	Unfolded Protein Response Pathway	FALSE
+FOXC2	AP-1 Complex Member	FALSE
+CTCF	Upregulated (RNA-seq)	TRUE
+CTCF	SE-Associated (ChIP-seq)	FALSE
+CTCF	Previously implicated in venom regulation	TRUE
+CTCF	Interacts with ERK	FALSE
+CTCF	Adrenoceptor Signaling Pathway	FALSE
+CTCF	Unfolded Protein Response Pathway	FALSE
+CTCF	AP-1 Complex Member	FALSE
+SREBF2	Upregulated (RNA-seq)	TRUE
+SREBF2	SE-Associated (ChIP-seq)	FALSE
+SREBF2	Previously implicated in venom regulation	TRUE
+SREBF2	Interacts with ERK	FALSE
+SREBF2	Adrenoceptor Signaling Pathway	FALSE
+SREBF2	Unfolded Protein Response Pathway	FALSE
+SREBF2	AP-1 Complex Member	FALSE
+ATF4	Upregulated (RNA-seq)	FALSE
+ATF4	SE-Associated (ChIP-seq)	TRUE
+ATF4	Previously implicated in venom regulation	FALSE
+ATF4	Interacts with ERK	TRUE
+ATF4	Adrenoceptor Signaling Pathway	TRUE
+ATF4	Unfolded Protein Response Pathway	TRUE
+ATF4	AP-1 Complex Member	FALSE
+CREB3L2	Upregulated (RNA-seq)	TRUE
+CREB3L2	SE-Associated (ChIP-seq)	TRUE
+CREB3L2	Previously implicated in venom regulation	TRUE
+CREB3L2	Interacts with ERK	TRUE
+CREB3L2	Adrenoceptor Signaling Pathway	TRUE
+CREB3L2	Unfolded Protein Response Pathway	TRUE
+CREB3L2	AP-1 Complex Member	FALSE
+CREB3	Upregulated (RNA-seq)	TRUE
+CREB3	SE-Associated (ChIP-seq)	TRUE
+CREB3	Previously implicated in venom regulation	FALSE
+CREB3	Interacts with ERK	TRUE
+CREB3	Adrenoceptor Signaling Pathway	TRUE
+CREB3	Unfolded Protein Response Pathway	TRUE
+CREB3	AP-1 Complex Member	FALSE
+ATF6B	Upregulated (RNA-seq)	TRUE
+ATF6B	SE-Associated (ChIP-seq)	FALSE
+ATF6B	Previously implicated in venom regulation	FALSE
+ATF6B	Interacts with ERK	TRUE
+ATF6B	Adrenoceptor Signaling Pathway	TRUE
+ATF6B	Unfolded Protein Response Pathway	TRUE
+ATF6B	AP-1 Complex Member	FALSE
+NR4A1	Upregulated (RNA-seq)	FALSE
+NR4A1	SE-Associated (ChIP-seq)	TRUE
+NR4A1	Previously implicated in venom regulation	FALSE
+NR4A1	Interacts with ERK	TRUE
+NR4A1	Adrenoceptor Signaling Pathway	FALSE
+NR4A1	Unfolded Protein Response Pathway	FALSE
+NR4A1	AP-1 Complex Member	FALSE
+DDIT3	Upregulated (RNA-seq)	FALSE
+DDIT3	SE-Associated (ChIP-seq)	TRUE
+DDIT3	Previously implicated in venom regulation	TRUE
+DDIT3	Interacts with ERK	FALSE
+DDIT3	Adrenoceptor Signaling Pathway	FALSE
+DDIT3	Unfolded Protein Response Pathway	TRUE
+DDIT3	AP-1 Complex Member	TRUE
+NFIX	Upregulated (RNA-seq)	TRUE
+NFIX	SE-Associated (ChIP-seq)	FALSE
+NFIX	Previously implicated in venom regulation	TRUE
+NFIX	Interacts with ERK	FALSE
+NFIX	Adrenoceptor Signaling Pathway	FALSE
+NFIX	Unfolded Protein Response Pathway	FALSE
+NFIX	AP-1 Complex Member	FALSE
+SP1	Upregulated (RNA-seq)	FALSE
+SP1	SE-Associated (ChIP-seq)	TRUE
+SP1	Previously implicated in venom regulation	FALSE
+SP1	Interacts with ERK	TRUE
+SP1	Adrenoceptor Signaling Pathway	FALSE
+SP1	Unfolded Protein Response Pathway	FALSE
+SP1	AP-1 Complex Member	FALSE
+NFIB	Upregulated (RNA-seq)	FALSE
+NFIB	SE-Associated (ChIP-seq)	TRUE
+NFIB	Previously implicated in venom regulation	TRUE
+NFIB	Interacts with ERK	FALSE
+NFIB	Adrenoceptor Signaling Pathway	FALSE
+NFIB	Unfolded Protein Response Pathway	FALSE
+NFIB	AP-1 Complex Member	FALSE
+FOXO4	Upregulated (RNA-seq)	FALSE
+FOXO4	SE-Associated (ChIP-seq)	TRUE
+FOXO4	Previously implicated in venom regulation	FALSE
+FOXO4	Interacts with ERK	TRUE
+FOXO4	Adrenoceptor Signaling Pathway	FALSE
+FOXO4	Unfolded Protein Response Pathway	FALSE
+FOXO4	AP-1 Complex Member	FALSE
+FOXO3	Upregulated (RNA-seq)	FALSE
+FOXO3	SE-Associated (ChIP-seq)	TRUE
+FOXO3	Previously implicated in venom regulation	TRUE
+FOXO3	Interacts with ERK	TRUE
+FOXO3	Adrenoceptor Signaling Pathway	FALSE
+FOXO3	Unfolded Protein Response Pathway	FALSE
+FOXO3	AP-1 Complex Member	FALSE
+XBP1	Upregulated (RNA-seq)	FALSE
+XBP1	SE-Associated (ChIP-seq)	TRUE
+XBP1	Previously implicated in venom regulation	FALSE
+XBP1	Interacts with ERK	FALSE
+XBP1	Adrenoceptor Signaling Pathway	FALSE
+XBP1	Unfolded Protein Response Pathway	TRUE
+XBP1	AP-1 Complex Member	FALSE
+CREM	Upregulated (RNA-seq)	FALSE
+CREM	SE-Associated (ChIP-seq)	TRUE
+CREM	Previously implicated in venom regulation	FALSE
+CREM	Interacts with ERK	FALSE
+CREM	Adrenoceptor Signaling Pathway	TRUE
+CREM	Unfolded Protein Response Pathway	FALSE
+CREM	AP-1 Complex Member	FALSE
+RARA	Upregulated (RNA-seq)	FALSE
+RARA	SE-Associated (ChIP-seq)	TRUE
+RARA	Previously implicated in venom regulation	FALSE
+RARA	Interacts with ERK	TRUE
+RARA	Adrenoceptor Signaling Pathway	FALSE
+RARA	Unfolded Protein Response Pathway	FALSE
+RARA	AP-1 Complex Member	FALSE
+BHLHA15	Upregulated (RNA-seq)	TRUE
+BHLHA15	SE-Associated (ChIP-seq)	TRUE
+BHLHA15	Previously implicated in venom regulation	FALSE
+BHLHA15	Interacts with ERK	FALSE
+BHLHA15	Adrenoceptor Signaling Pathway	FALSE
+BHLHA15	Unfolded Protein Response Pathway	TRUE
+BHLHA15	AP-1 Complex Member	FALSE
+CREG1	Upregulated (RNA-seq)	TRUE
+CREG1	SE-Associated (ChIP-seq)	FALSE
+CREG1	Previously implicated in venom regulation	FALSE
+CREG1	Interacts with ERK	TRUE
+CREG1	Adrenoceptor Signaling Pathway	FALSE
+CREG1	Unfolded Protein Response Pathway	FALSE
+CREG1	AP-1 Complex Member	FALSE
+BLZF1	Upregulated (RNA-seq)	TRUE
+BLZF1	SE-Associated (ChIP-seq)	FALSE
+BLZF1	Previously implicated in venom regulation	FALSE
+BLZF1	Interacts with ERK	TRUE
+BLZF1	Adrenoceptor Signaling Pathway	FALSE
+BLZF1	Unfolded Protein Response Pathway	FALSE
+BLZF1	AP-1 Complex Member	FALSE
+GRHL2	Upregulated (RNA-seq)	FALSE
+GRHL2	SE-Associated (ChIP-seq)	TRUE
+GRHL2	Previously implicated in venom regulation	TRUE
+GRHL2	Interacts with ERK	FALSE
+GRHL2	Adrenoceptor Signaling Pathway	FALSE
+GRHL2	Unfolded Protein Response Pathway	FALSE
+GRHL2	AP-1 Complex Member	FALSE
+NCOA2	Upregulated (RNA-seq)	TRUE
+NCOA2	SE-Associated (ChIP-seq)	FALSE
+NCOA2	Previously implicated in venom regulation	TRUE
+NCOA2	Interacts with ERK	FALSE
+NCOA2	Adrenoceptor Signaling Pathway	FALSE
+NCOA2	Unfolded Protein Response Pathway	FALSE
+NCOA2	AP-1 Complex Member	FALSE
+ATF6	Upregulated (RNA-seq)	TRUE
+ATF6	SE-Associated (ChIP-seq)	FALSE
+ATF6	Previously implicated in venom regulation	TRUE
+ATF6	Interacts with ERK	FALSE
+ATF6	Adrenoceptor Signaling Pathway	FALSE
+ATF6	Unfolded Protein Response Pathway	TRUE
+ATF6	AP-1 Complex Member	FALSE
+NFIA	Upregulated (RNA-seq)	TRUE
+NFIA	SE-Associated (ChIP-seq)	TRUE
+NFIA	Previously implicated in venom regulation	TRUE
+NFIA	Interacts with ERK	FALSE
+NFIA	Adrenoceptor Signaling Pathway	FALSE
+NFIA	Unfolded Protein Response Pathway	FALSE
+NFIA	AP-1 Complex Member	FALSE
+SPDEF	Upregulated (RNA-seq)	TRUE
+SPDEF	SE-Associated (ChIP-seq)	TRUE
+SPDEF	Previously implicated in venom regulation	TRUE
+SPDEF	Interacts with ERK	FALSE
+SPDEF	Adrenoceptor Signaling Pathway	FALSE
+SPDEF	Unfolded Protein Response Pathway	FALSE
+SPDEF	AP-1 Complex Member	FALSE
+ELK4	Upregulated (RNA-seq)	TRUE
+ELK4	SE-Associated (ChIP-seq)	FALSE
+ELK4	Previously implicated in venom regulation	FALSE
+ELK4	Interacts with ERK	TRUE
+ELK4	Adrenoceptor Signaling Pathway	FALSE
+ELK4	Unfolded Protein Response Pathway	FALSE
+ELK4	AP-1 Complex Member	FALSE
+KLF11	Upregulated (RNA-seq)	TRUE
+KLF11	SE-Associated (ChIP-seq)	TRUE
+KLF11	Previously implicated in venom regulation	FALSE
+KLF11	Interacts with ERK	TRUE
+KLF11	Adrenoceptor Signaling Pathway	FALSE
+KLF11	Unfolded Protein Response Pathway	FALSE
+KLF11	AP-1 Complex Member	FALSE
+JUN	Upregulated (RNA-seq)	FALSE
+JUN	SE-Associated (ChIP-seq)	TRUE
+JUN	Previously implicated in venom regulation	TRUE
+JUN	Interacts with ERK	TRUE
+JUN	Adrenoceptor Signaling Pathway	FALSE
+JUN	Unfolded Protein Response Pathway	FALSE
+JUN	AP-1 Complex Member	TRUE
+ERF	Upregulated (RNA-seq)	TRUE
+ERF	SE-Associated (ChIP-seq)	FALSE
+ERF	Previously implicated in venom regulation	FALSE
+ERF	Interacts with ERK	TRUE
+ERF	Adrenoceptor Signaling Pathway	FALSE
+ERF	Unfolded Protein Response Pathway	FALSE
+ERF	AP-1 Complex Member	FALSE
+FOS	Upregulated (RNA-seq)	TRUE
+FOS	SE-Associated (ChIP-seq)	TRUE
+FOS	Previously implicated in venom regulation	TRUE
+FOS	Interacts with ERK	TRUE
+FOS	Adrenoceptor Signaling Pathway	FALSE
+FOS	Unfolded Protein Response Pathway	FALSE
+FOS	AP-1 Complex Member	TRUE
+CREB3L1	Upregulated (RNA-seq)	TRUE
+CREB3L1	SE-Associated (ChIP-seq)	FALSE
+CREB3L1	Previously implicated in venom regulation	FALSE
+CREB3L1	Interacts with ERK	TRUE
+CREB3L1	Adrenoceptor Signaling Pathway	TRUE
+CREB3L1	Unfolded Protein Response Pathway	TRUE
+CREB3L1	AP-1 Complex Member	FALSE
+CCND1	Upregulated (RNA-seq)	TRUE
+CCND1	SE-Associated (ChIP-seq)	FALSE
+CCND1	Previously implicated in venom regulation	FALSE
+CCND1	Interacts with ERK	FALSE
+CCND1	Adrenoceptor Signaling Pathway	FALSE
+CCND1	Unfolded Protein Response Pathway	TRUE
+CCND1	AP-1 Complex Member	FALSE
+EHF	Upregulated (RNA-seq)	TRUE
+EHF	SE-Associated (ChIP-seq)	TRUE
+EHF	Previously implicated in venom regulation	TRUE
+EHF	Interacts with ERK	FALSE
+EHF	Adrenoceptor Signaling Pathway	FALSE
+EHF	Unfolded Protein Response Pathway	FALSE
+EHF	AP-1 Complex Member	FALSE
+ELF5	Upregulated (RNA-seq)	TRUE
+ELF5	SE-Associated (ChIP-seq)	FALSE
+ELF5	Previously implicated in venom regulation	TRUE
+ELF5	Interacts with ERK	FALSE
+ELF5	Adrenoceptor Signaling Pathway	FALSE
+ELF5	Unfolded Protein Response Pathway	FALSE
+ELF5	AP-1 Complex Member	FALSE
+NR4A2	Upregulated (RNA-seq)	FALSE
+NR4A2	SE-Associated (ChIP-seq)	TRUE
+NR4A2	Previously implicated in venom regulation	TRUE
+NR4A2	Interacts with ERK	FALSE
+NR4A2	Adrenoceptor Signaling Pathway	FALSE
+NR4A2	Unfolded Protein Response Pathway	FALSE
+NR4A2	AP-1 Complex Member	FALSE
+ATF2	Upregulated (RNA-seq)	TRUE
+ATF2	SE-Associated (ChIP-seq)	FALSE
+ATF2	Previously implicated in venom regulation	FALSE
+ATF2	Interacts with ERK	TRUE
+ATF2	Adrenoceptor Signaling Pathway	TRUE
+ATF2	Unfolded Protein Response Pathway	FALSE
+ATF2	AP-1 Complex Member	FALSE
+GRHL1	Upregulated (RNA-seq)	TRUE
+GRHL1	SE-Associated (ChIP-seq)	TRUE
+GRHL1	Previously implicated in venom regulation	TRUE
+GRHL1	Interacts with ERK	FALSE
+GRHL1	Adrenoceptor Signaling Pathway	FALSE
+GRHL1	Unfolded Protein Response Pathway	FALSE
+GRHL1	AP-1 Complex Member	FALSE
+TBX3	Upregulated (RNA-seq)	TRUE
+TBX3	SE-Associated (ChIP-seq)	TRUE
+TBX3	Previously implicated in venom regulation	FALSE
+TBX3	Interacts with ERK	TRUE
+TBX3	Adrenoceptor Signaling Pathway	FALSE
+TBX3	Unfolded Protein Response Pathway	FALSE
+TBX3	AP-1 Complex Member	FALSE

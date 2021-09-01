@@ -1,0 +1,5 @@
+db_index	motif_id	motif_alt_id	consensus	E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	p-value	mult_tests	neg_sites_in_bin	neg_sites	neg_adj_pvalue	log_neg_adj_pvalue	fisher_adj_pvalue	log_fisher_adj_pvalue
+
+# CentriMo (Local Motif Enrichment Analysis): Version 5.3.3 compiled on Feb 21 2021 at 14:52:25
+# The format of this file is described at https://meme-suite.org/meme/doc/centrimo-output-format.html.
+# centrimo -seqlen 609 -verbosity 1 -oc centrimo_out -bfile ./background -score 5.0 -ethresh 10.0 -neg ./NonVenom_Enhancers_BoundFootprintRegs.fa ./allVenom_Enhancers_BoundFootprintRegs.fa meme_out/meme.xml streme_out/streme.xml db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme db/MOUSE/uniprobe_mouse.meme db/EUKARYOTE/jolma2013.meme

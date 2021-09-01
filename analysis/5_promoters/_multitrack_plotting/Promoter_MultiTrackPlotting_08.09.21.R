@@ -54,7 +54,7 @@ svmp.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= SVMP.reg.start & start <= SVMP.reg.end) 
 
-svmp.atac.vg3.peaks <- read_tsv('analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+svmp.atac.vg3.peaks <- read_tsv('analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.16.21.simple.bed',
                           col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi1') %>% 
   filter(end >= SVMP.reg.start & start <= SVMP.reg.end) 
@@ -137,7 +137,7 @@ svsp.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= svsp.reg.start & start <= svsp.reg.end) 
 
-svsp.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+svsp.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.16.21.simple.bed',
                                 col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi2') %>% 
   filter(end >= svsp.reg.start & start <= svsp.reg.end) 
@@ -229,7 +229,7 @@ pla2.atac.vg3 <- read_tsv('/Volumes/BlairPerry.Data1/__Cvv_Venom_Regulation/_new
                           col_names = c('chr','start','end','density')) %>% 
   filter(end >= pla2.reg.start & start <= pla2.reg.end) 
 
-pla2.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.14.21.simple.bed',
+pla2.atac.vg3.peaks <- read_tsv('./analysis/4_atacseq/peak_regions/_atacPeaks_2orMoreSamples_08.16.21.simple.bed',
                                 col_names = c('chr','start','end')) %>% 
   filter(chr=='scaffold-mi7') %>% 
   filter(end >= pla2.reg.start & start <= pla2.reg.end) 

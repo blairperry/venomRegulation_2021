@@ -26,23 +26,27 @@ ap1_component <- read_tsv('./analysis/3_transcription_factors/_functional_charac
   mutate(tfs = str_split(`matching proteins in your network (labels)`,',')) %>% 
   unnest(tfs)
 
+upr <- read_tsv('analysis/3_transcription_factors/_functional_characterization/UPR_GO.0030968_ProtIDs.txt',col_names = 'id')
+
 prev_impl <- read_tsv('./analysis/3_transcription_factors/_functional_characterization/TFs_PrevImplicated_wTigris_02.23.21.txt',col_names = 'id')
 
 cand_tfs.interest <- cand_tfs %>% 
   mutate(prev_implicated = ifelse(id %in% prev_impl$id | id %in% ap1_component$tfs,T,F)) %>% 
   mutate(erk_interact = ifelse(id %in% erk_interact_all$TF,T,F)) %>% 
   mutate(adren_path = ifelse(id %in% adren_enrich$tfs,T,F)) %>% 
-  mutate(ap1_complex = ifelse(id %in% ap1_component$tfs,T,F)) %>% 
-  filter(prev_implicated | erk_interact | ap1_complex | adren_path) %>% 
+  mutate(ap1_complex = ifelse(id %in% ap1_component$tfs,T,F)) %>%
+  mutate(upr_pathway = ifelse(id %in% upr$id,T,F)) %>%
+  filter(prev_implicated | erk_interact | ap1_complex | adren_path | upr_pathway) %>% 
   select(id, 
          `Upregulated (RNA-seq)` = Upreg.Ven.vs.NonVen, 
          `SE-Associated (ChIP-seq)` = SEassociated, 
          `Previously implicated in venom regulation` = prev_implicated,
          `Interacts with ERK` = erk_interact, 
          `Adrenoceptor Signaling Pathway`=adren_path,
+         `Unfolded Protein Response Pathway`=upr_pathway,
          `AP-1 Complex Member` = ap1_complex) %>% 
   pivot_longer(-1,names_to = 'feature',values_to='value') %>% 
-  mutate(feature = factor(feature,levels=c("Upregulated (RNA-seq)","SE-Associated (ChIP-seq)","Differentially Bound (ATAC-seq)","Previously implicated in venom regulation","Adrenoceptor Signaling Pathway","AP-1 Complex Member","Interacts with ERK")))
+  mutate(feature = factor(feature,levels=c("Upregulated (RNA-seq)","SE-Associated (ChIP-seq)","Differentially Bound (ATAC-seq)","Previously implicated in venom regulation","Adrenoceptor Signaling Pathway","AP-1 Complex Member","Interacts with ERK","Unfolded Protein Response Pathway")))
 
 # write_tsv(cand_tfs.interest,'CandTFs_InterestingSubset_FULL_03.20.21.tsv')
 

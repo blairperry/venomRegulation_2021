@@ -2,6 +2,7 @@
 library(tidyverse)
 library(pheatmap)
 library(viridis)
+library(ggvenn)
 
 ##
 ## Analyses to identify candidate TFs involved in the regulation of venom genes. 
@@ -108,7 +109,7 @@ upreg.TFs.pw <- Ven.vs.NonVen.up %>% filter(X1 %in% upreg.TFs$X1)
 # 111 upreg TFs
 
 
-write_csv(upreg.TFs,'./analysis/3_transcription_factors/UpregulatedTFs_08.02.21.csv')
+# write_csv(upreg.TFs,'./analysis/3_transcription_factors/UpregulatedTFs_08.02.21.csv')
 
 upreg.TFs.heatdata <- as.data.frame(upreg.TFs[,c(4,8,9,2,3,5,6,7,10)])
 row.names(upreg.TFs.heatdata) <- upreg.TFs$id.y
@@ -137,7 +138,28 @@ pheatmap(upreg.TFs.heatdata,
 
 allCand.TFs <- tf.normCounts %>% filter(SEassociated | Upreg.Ven.vs.NonVen)
 
-write_tsv(allCand.TFs,'analysis/3_transcription_factors/allCandidateTFs_08.03.21.tsv')
+# write_tsv(allCand.TFs,'analysis/3_transcription_factors/allCandidateTFs_08.03.21.tsv')
+
+allCand.TFs.heatdata <- as.data.frame(allCand.TFs[,c(4,8,9,2,3,5,6,7,10)])
+row.names(allCand.TFs.heatdata) <- allCand.TFs$id.y
+
+allCand.TFs.annot <- as.data.frame(allCand.TFs[,c(13,14,16,17,18)]*1)
+row.names(allCand.TFs.annot) <- allCand.TFs$id.y
+
+pheatmap(allCand.TFs.heatdata,
+         cluster_cols = F,
+         scale='row',
+         color=viridis(50),
+         border_color = NA,
+         treeheight_row = 10,
+         cellwidth = 6,
+         cellheight = 6,
+         fontsize_row = 6,
+         main = 'SE-Associated TFs',
+         annotation_row = allCand.TFs.annot,
+         gaps_col = 3,
+         # filename='./figures/fig_pieces/allCand_TFheatmap_02.12.21.pdf'
+)
 
 
 # SE-associated TFs
@@ -145,6 +167,11 @@ write_tsv(allCand.TFs,'analysis/3_transcription_factors/allCandidateTFs_08.03.21
 
 seAssoc.TFs <- tf.normCounts %>% filter(SEassociated)
 
+
+
+
+
+#
 # write_csv(seAssoc.TFs,'./analysis/3_transcription_factors/SEassociatedTFs_08.03.21.csv')
 
 seAssoc.TFs.heatdata <- as.data.frame(seAssoc.TFs[,c(4,8,9,2,3,5,6,7,10)])

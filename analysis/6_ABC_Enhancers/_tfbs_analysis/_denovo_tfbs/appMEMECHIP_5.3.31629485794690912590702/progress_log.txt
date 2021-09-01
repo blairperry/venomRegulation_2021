@@ -1,0 +1,62 @@
+Invoking:
+  getsize ./allVenom_Enhancers_BoundFootprintRegs.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.004318
+Invoking:
+  fasta-most -min 50 < ./allVenom_Enhancers_BoundFootprintRegs.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.02828
+Invoking:
+  fasta-center -dna -len 100 < ./allVenom_Enhancers_BoundFootprintRegs.fa 1> ./seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.032691
+Invoking:
+  getsize ./NonVenom_Enhancers_BoundFootprintRegs.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.011019
+Invoking:
+  fasta-center -dna -len 100 < ./NonVenom_Enhancers_BoundFootprintRegs.fa 1> ./control-centered
+Finished invoke:
+  name: center_control  status: 0  time: 0.047829
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 ./NonVenom_Enhancers_BoundFootprintRegs.fa ./background
+Finished invoke:
+  name: bg  status: 0  time: 0.008336
+Invoking:
+  meme ./seqs-centered -oc meme_out -mod zoops -nmotifs 10 -minw 6 -maxw 15 -bfile ./background -dna -searchsize 100000 -time 2919 -objfun de -neg ./control-centered -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 7.625447
+Invoking:
+  streme -verbosity 1 -oc streme_out -dna -p ./seqs-centered -n ./control-centered -minw 6 -maxw 15 -time 6197 -kmer 3 -pvt 0.05 -totallength 4000000
+Finished invoke:
+  name: streme  status: 0  time: 3.98032
+Invoking:
+  centrimo -seqlen 609 -verbosity 1 -oc centrimo_out -bfile ./background -score 5.0 -ethresh 10.0 -neg ./NonVenom_Enhancers_BoundFootprintRegs.fa ./allVenom_Enhancers_BoundFootprintRegs.fa meme_out/meme.xml streme_out/streme.xml db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme db/MOUSE/uniprobe_mouse.meme db/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 2.508359
+Invoking:
+  tomtom -verbosity 1 -oc meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_out/meme.xml db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme db/MOUSE/uniprobe_mouse.meme db/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 6.859577
+Invoking:
+  tomtom -verbosity 1 -oc streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc streme_out/streme.xml db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme db/MOUSE/uniprobe_mouse.meme db/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: streme_tomtom  status: 0  time: 7.302887
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 ./combined.meme ./combined.meme 1> ./motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.01032
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_1 -bgfile ./background -keepprimary -primary YMYWAMWGRMWRYT ./allVenom_Enhancers_BoundFootprintRegs.fa meme_out/meme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 0  time: 0.103086
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif YMYWAMWGRMWRYT meme_out/meme.xml ./allVenom_Enhancers_BoundFootprintRegs.fa
+Finished invoke:
+  name: fimo1  status: 0  time: 0.035948
+Writing output
+Invoking:
+  meme-chip_html_to_tsv ./meme-chip.html ./summary.tsv "meme-chip -oc . -time 240 -ccut 100 -dna -neg NonVenom_Enhancers_BoundFootprintRegs.fa -order 2 -minw 6 -maxw 15 -db db/JASPAR/JASPAR2018_CORE_vertebrates_non-redundant.meme -db db/MOUSE/uniprobe_mouse.meme -db db/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 10 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 allVenom_Enhancers_BoundFootprintRegs.fa" 5.3.3 "Sun Feb 7 15\:39\:52 2021 -0800"
+Finished invoke:
+  name: summary  status: 0  time: 0.068774
+Done

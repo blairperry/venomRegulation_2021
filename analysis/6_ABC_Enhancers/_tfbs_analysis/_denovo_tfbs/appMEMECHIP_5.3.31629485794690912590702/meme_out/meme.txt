@@ -1,0 +1,1438 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.3.3 (Release date: Sun Feb 7 15:39:52 2021 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= ./seqs-centered
+CONTROL SEQUENCES= ./control-centered
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+scaffold-ma1:169417465-1 1.0000    100  scaffold-ma1:169556765-1 1.0000    100  
+scaffold-ma1:256566298-2 1.0000    100  scaffold-ma1:260253568-2 1.0000    100  
+scaffold-ma2:4292002-429 1.0000    100  scaffold-ma2:4375904-437 1.0000    100  
+scaffold-ma2:4381626-438 1.0000    100  scaffold-ma4:85128551-85 1.0000    100  
+scaffold-mi1:14193627-14 1.0000    100  scaffold-mi1:14197539-14 1.0000    100  
+scaffold-mi1:14203264-14 1.0000    100  scaffold-mi1:14246402-14 1.0000    100  
+scaffold-mi1:14276792-14 1.0000    100  scaffold-mi1:14304569-14 1.0000    100  
+scaffold-mi1:14395528-14 1.0000    100  scaffold-mi2:8535550-853 1.0000    100  
+scaffold-mi2:8549923-855 1.0000    100  scaffold-mi2:8553709-855 1.0000    100  
+scaffold-mi2:8560973-856 1.0000    100  scaffold-mi2:8735648-873 1.0000    100  
+scaffold-mi2:8737083-873 1.0000    100  scaffold-mi2:8747448-874 1.0000    100  
+scaffold-mi2:8753465-875 1.0000    100  scaffold-mi2:8799161-879 1.0000    100  
+scaffold-mi2:8811504-881 1.0000    100  scaffold-mi2:8828181-882 1.0000    100  
+scaffold-mi2:8848793-884 1.0000    100  scaffold-mi2:8849320-884 1.0000    100  
+scaffold-mi2:8859367-886 1.0000    100  scaffold-mi2:8881756-888 1.0000    100  
+scaffold-mi2:8884153-888 1.0000    100  scaffold-mi2:8899216-889 1.0000    100  
+scaffold-mi5:11649503-11 1.0000    100  scaffold-mi5:11652675-11 1.0000    100  
+scaffold-mi5:11653028-11 1.0000    100  scaffold-mi7:3024168-302 1.0000    100  
+scaffold-mi7:3030314-303 1.0000    100  scaffold-mi7:3034975-303 1.0000    100  
+scaffold-mi7:3044361-304 1.0000    100  scaffold-mi7:5085382-508 1.0000    100  
+scaffold-mi7:5095010-509 1.0000    100  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme ./seqs-centered -oc meme_out -mod zoops -nmotifs 10 -minw 6 -maxw 15 -bfile ./background -dna -searchsize 100000 -time 2919 -objfun de -neg ./control-centered -revcomp -nostatus 
+
+model:  mod=         zoops    nmotifs=        10    evt=           inf
+objective function:           em=       Differential Enrichment mHG
+                              starts=   log likelihood ratio (LLR)
+strands: + -
+width:  minw=            6    maxw=           15
+nsites: minsites=        2    maxsites=       41    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+data:   n=            4100    N=              41
+sample: seed=            0    hsfrac=        0.5
+        searchsize=   4100    norand=         no    csites=         -1
+Letter frequencies in dataset:
+A 0.283 C 0.217 G 0.217 T 0.283 
+Background letter frequencies (from file ./background):
+A 0.244 C 0.256 G 0.256 T 0.244 
+Background model order: 2
+********************************************************************************
+
+
+********************************************************************************
+MOTIF YMYWAMWGRMWRYT MEME-1	width =  14  sites =  26  llr = 209  p-value = 1.4e-002  E-value = 1.4e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :5:3735256631:
+pos.-specific     C  454::5:::4::5:
+probability       G  2::::2:85:15:3
+matrix            T  4:563:4:::3247
+
+         bits    2.0               
+                 1.8               
+                 1.6               
+                 1.4               
+Relative         1.2     *        *
+Entropy          1.0  *  *  ***   *
+(11.6 bits)      0.8  ****  ***   *
+                 0.6 ***** ***** **
+                 0.4 **************
+                 0.2 **************
+                 0.0 --------------
+
+Multilevel           CATTACAGAAAGCT
+consensus            TCCATAT GCTATG
+sequence                           
+                                   
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                 Site   
+-------------            ------  ----- ---------            --------------
+scaffold-mi1:14304569-14     -     76  2.95e-07 AATGAAAACA TCTTACTGACAGCT CATGAATGAT
+scaffold-mi1:14276792-14     -     29  2.95e-07 AATGAAAACA TCTTACTGACAGCT CATGAATGAG
+scaffold-mi1:14246402-14     -     12  2.95e-07 AATGAAAACA TCTTACTGACAGCT CATGAATGAC
+scaffold-mi1:14193627-14     -     59  2.95e-07 AATGAAAACA TCTTACTGACAGCT CATGAATGAT
+scaffold-mi2:8553709-855     -     46  1.25e-05 CAAACCAGAG CACTAATGGCAATT GGATGGATCC
+scaffold-mi2:8799161-879     +     45  1.69e-05 GATCCTGAAG CACAAAAGAATACT GATAATAAGA
+scaffold-mi7:3024168-302     -     24  2.24e-05 AATACGTAAA GCTTAAAGGCAACT TCTGGTTTCC
+scaffold-mi2:8560973-856     +     39  2.55e-05 GCCCAGAATG GATTTCTGGAAGCT GCATCCACAT
+scaffold-mi2:8899216-889     -     27  4.60e-05 GGGGTTGGGA CCCAACAGGAAAAT GAGGGGTGGA
+scaffold-mi2:8859367-886     -     71  5.12e-05 TTGACAATAA CATTACACAAAGCT CAAGAGAGAG
+scaffold-mi7:3044361-304     -     78  5.68e-05  TGGGGGTTT CCCTAAAGACATTG GACGTTCCTG
+scaffold-mi7:3030314-303     +     30  7.61e-05 TTTAAGACAG CATTTCAAAATATT GTCCCAGGCA
+scaffold-ma1:169417465-1     +     33  7.61e-05 TTTTGTCTCT TCTAAGAGGATTTT GTCTTTCTTG
+scaffold-mi2:8828181-882     +     84  1.38e-04 GCCTCTGATT CCCTAGTAGATACT GCC       
+scaffold-mi2:8849320-884     -     40  1.61e-04 AAAGCCAAGT TACATAAGGATGTG AAGGGTTCTG
+scaffold-mi2:8735648-873     +     32  1.61e-04 AGAGCCAAGT TACATAAGGATGTG AAGGGTTCTG
+scaffold-mi1:14203264-14     +     50  1.61e-04 TTTTCATTTG GATAAGAGGAAGAT GTTTACTGTA
+scaffold-ma4:85128551-85     -     62  1.73e-04 AGGCCTTGCT CACTTCTAACAGTG TACTTGCACA
+scaffold-mi2:8747448-874     -     18  1.99e-04 GGCTAGAATA TATATCTAGAAATG ATTTCGTAAA
+scaffold-mi2:8811504-881     +     51  2.13e-04 TCTCCAAAGT TCTTACAAGATTAT GTAAGGTTCA
+scaffold-ma1:169556765-1     -     22  2.13e-04 TGAGCCTGAG CATTAAGGGCAGCG AAATTGCCTT
+scaffold-mi5:11649503-11     -     44  2.60e-04 GCAGGAAGGG CCCATCTGAAGACG CCCCCAGCAG
+scaffold-mi2:8535550-853     +     34  3.13e-04 TCGGCTTTTG CACCAGAGAAATTT CATGCAAGCT
+scaffold-ma2:4381626-438     +     14  3.13e-04 TTTGTTCATG TATTAGCGAAGGCT TGATCCCTGT
+scaffold-mi2:8848793-884     -     40  3.33e-04 AATGTGTAAA GCCAACTGACGTTT GTTCCTACCA
+scaffold-ma1:260253568-2     +      9  3.33e-04   CTGCTGGC TCATAAAGACTACG TGCTCTACGC
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi1:14304569-14            3e-07  75_[-1]_11
+scaffold-mi1:14276792-14            3e-07  28_[-1]_58
+scaffold-mi1:14246402-14            3e-07  11_[-1]_75
+scaffold-mi1:14193627-14            3e-07  58_[-1]_28
+scaffold-mi2:8553709-855          1.3e-05  45_[-1]_41
+scaffold-mi2:8799161-879          1.7e-05  44_[+1]_42
+scaffold-mi7:3024168-302          2.2e-05  23_[-1]_63
+scaffold-mi2:8560973-856          2.6e-05  38_[+1]_48
+scaffold-mi2:8899216-889          4.6e-05  26_[-1]_60
+scaffold-mi2:8859367-886          5.1e-05  70_[-1]_16
+scaffold-mi7:3044361-304          5.7e-05  77_[-1]_9
+scaffold-mi7:3030314-303          7.6e-05  29_[+1]_57
+scaffold-ma1:169417465-1          7.6e-05  32_[+1]_54
+scaffold-mi2:8828181-882          0.00014  83_[+1]_3
+scaffold-mi2:8849320-884          0.00016  39_[-1]_47
+scaffold-mi2:8735648-873          0.00016  31_[+1]_55
+scaffold-mi1:14203264-14          0.00016  49_[+1]_37
+scaffold-ma4:85128551-85          0.00017  61_[-1]_25
+scaffold-mi2:8747448-874           0.0002  17_[-1]_69
+scaffold-mi2:8811504-881          0.00021  50_[+1]_36
+scaffold-ma1:169556765-1          0.00021  21_[-1]_65
+scaffold-mi5:11649503-11          0.00026  43_[-1]_43
+scaffold-mi2:8535550-853          0.00031  33_[+1]_53
+scaffold-ma2:4381626-438          0.00031  13_[+1]_73
+scaffold-mi2:8848793-884          0.00033  39_[-1]_47
+scaffold-ma1:260253568-2          0.00033  8_[+1]_78
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF YMYWAMWGRMWRYT width=14 seqs=26
+scaffold-mi1:14304569-14 (   76) TCTTACTGACAGCT  1 
+scaffold-mi1:14276792-14 (   29) TCTTACTGACAGCT  1 
+scaffold-mi1:14246402-14 (   12) TCTTACTGACAGCT  1 
+scaffold-mi1:14193627-14 (   59) TCTTACTGACAGCT  1 
+scaffold-mi2:8553709-855 (   46) CACTAATGGCAATT  1 
+scaffold-mi2:8799161-879 (   45) CACAAAAGAATACT  1 
+scaffold-mi7:3024168-302 (   24) GCTTAAAGGCAACT  1 
+scaffold-mi2:8560973-856 (   39) GATTTCTGGAAGCT  1 
+scaffold-mi2:8899216-889 (   27) CCCAACAGGAAAAT  1 
+scaffold-mi2:8859367-886 (   71) CATTACACAAAGCT  1 
+scaffold-mi7:3044361-304 (   78) CCCTAAAGACATTG  1 
+scaffold-mi7:3030314-303 (   30) CATTTCAAAATATT  1 
+scaffold-ma1:169417465-1 (   33) TCTAAGAGGATTTT  1 
+scaffold-mi2:8828181-882 (   84) CCCTAGTAGATACT  1 
+scaffold-mi2:8849320-884 (   40) TACATAAGGATGTG  1 
+scaffold-mi2:8735648-873 (   32) TACATAAGGATGTG  1 
+scaffold-mi1:14203264-14 (   50) GATAAGAGGAAGAT  1 
+scaffold-ma4:85128551-85 (   62) CACTTCTAACAGTG  1 
+scaffold-mi2:8747448-874 (   18) TATATCTAGAAATG  1 
+scaffold-mi2:8811504-881 (   51) TCTTACAAGATTAT  1 
+scaffold-ma1:169556765-1 (   22) CATTAAGGGCAGCG  1 
+scaffold-mi5:11649503-11 (   44) CCCATCTGAAGACG  1 
+scaffold-mi2:8535550-853 (   34) CACCAGAGAAATTT  1 
+scaffold-ma2:4381626-438 (   14) TATTAGCGAAGGCT  1 
+scaffold-mi2:8848793-884 (   40) GCCAACTGACGTTT  1 
+scaffold-ma1:260253568-2 (    9) TCATAAAGACTACG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 14 n= 3567 bayes= 7.56021 E= 1.4e-002 
+ -1134     73    -73     79 
+   103     97  -1134  -1134 
+  -266     73  -1134    114 
+    50   -273  -1134    133 
+   158  -1134  -1134     14 
+    33     97    -41  -1134 
+   103   -273   -273     79 
+   -34   -273    159  -1134 
+   114  -1134     85  -1134 
+   124     73  -1134  -1134 
+   124  -1134   -115     33 
+    50  -1134     85    -34 
+  -108     97  -1134     66 
+ -1134  -1134     27    150 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 14 nsites= 26 E= 1.4e-002 
+ 0.000000  0.423077  0.153846  0.423077 
+ 0.500000  0.500000  0.000000  0.000000 
+ 0.038462  0.423077  0.000000  0.538462 
+ 0.346154  0.038462  0.000000  0.615385 
+ 0.730769  0.000000  0.000000  0.269231 
+ 0.307692  0.500000  0.192308  0.000000 
+ 0.500000  0.038462  0.038462  0.423077 
+ 0.192308  0.038462  0.769231  0.000000 
+ 0.538462  0.000000  0.461538  0.000000 
+ 0.576923  0.423077  0.000000  0.000000 
+ 0.576923  0.000000  0.115385  0.307692 
+ 0.346154  0.000000  0.461538  0.192308 
+ 0.115385  0.500000  0.000000  0.384615 
+ 0.000000  0.000000  0.307692  0.692308 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif YMYWAMWGRMWRYT MEME-1 regular expression
+--------------------------------------------------------------------------------
+[CT][AC][TC][TA][AT][CA][AT]G[AG][AC][AT][GA][CT][TG]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  0.93 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TTTTMTTG MEME-2	width =   8  sites =  26  llr = 176  p-value = 2.3e-001  E-value = 2.5e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  :2::422:
+pos.-specific     C  2:226:::
+probability       G  :::::::8
+matrix            T  8888:882
+
+         bits    2.0         
+                 1.8         
+                 1.6         
+                 1.4  *   ** 
+Relative         1.2 **** ***
+Entropy          1.0 **** ***
+(9.7 bits)       0.8 ********
+                 0.6 ********
+                 0.4 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           TTTTCTTG
+consensus            C   A  T
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+scaffold-mi2:8799161-879     -     83  2.70e-05 AAGGGTCTGT TTTTATTG AGATACATAT
+scaffold-mi5:11652675-11     +     19  5.47e-05 CACTGGGGAC CTTTCTTG ACCTCCTGGA
+scaffold-mi2:8849320-884     -      6  5.47e-05 AGGGAAATTG CTTTCTTG CTTGT     
+scaffold-mi2:8535550-853     +      6  5.47e-05      TGTTG CTTTCTTG CTTTTTGAAA
+scaffold-ma1:169417465-1     +     49  5.47e-05 AGGATTTTGT CTTTCTTG ACTTTGGCAT
+scaffold-mi7:5095010-509     +     85  1.11e-04 TTTTCCGAGC TTTTCATG TGATCTGC  
+scaffold-mi7:3044361-304     -     38  1.11e-04 CACGGGCTGT TTTCCTTG CTGTCCTTTC
+scaffold-mi2:8859367-886     -     23  1.11e-04 ACATTACTTG TTTTCTAG CCAATAATCA
+scaffold-mi2:8884153-888     +     91  1.37e-04 TTTTAAAGGT TTTTATTT TC        
+scaffold-mi1:14203264-14     +      6  1.37e-04      AAAAG TTTTATTT ATCATTCATG
+scaffold-ma1:256566298-2     -     17  1.52e-04 AACACTGATG TTCTCTTG TCAGGATCCT
+scaffold-mi2:8737083-873     +     65  2.05e-04 GTTGTCTGAT TTTCATTG GCTAACAAAG
+scaffold-mi1:14304569-14     -     33  2.19e-04 GTCTTTCCTT TTCTATTG ACCTTGTCAC
+scaffold-mi7:5085382-508     -      8  3.45e-04 GACCAGTCGG CTTTCATG CCAGCCG   
+scaffold-mi1:14276792-14     +     45  3.45e-04 CAGTAAGATG TTTTCATT TGGATAAGAG
+scaffold-mi1:14246402-14     +     28  3.45e-04 CAGTAAGATG TTTTCATT TGGATAAGAG
+scaffold-mi1:14193627-14     -     23  3.45e-04 TCTTTTTGTC TTTTCTAT TAATCTTTCA
+scaffold-mi2:8560973-856     +     16  3.71e-04 GTAGCTAATT TTTTTTTG CCCAGGCCCA
+scaffold-mi2:8899216-889     -      2  4.85e-04 GGAGCTAGAG TATCCTTG T         
+scaffold-mi2:8747448-874     +     32  4.85e-04 TCTAGATATA TATTCTAG CCTACTGAAC
+scaffold-mi2:8549923-855     -     56  5.92e-04 TTTTGTATTA CTTTATAG TTAGGCATGT
+scaffold-ma1:260253568-2     -     37  6.65e-04 GTCCGCCCAT TTCTCTAG CATCGCGTAG
+scaffold-ma1:169556765-1     -     73  7.74e-04 AGAACACAAG TATTAATG ATCGGAAATG
+scaffold-mi2:8828181-882     +     48  7.88e-04 TGTATTTCAT TTGTATTG TGCCATCACA
+scaffold-mi1:14395528-14     +      4  1.61e-03        AGG TATCATTT GTCATTCATG
+scaffold-mi2:8848793-884     -     27  2.10e-03 CGTTTGTTCC TACCATTG ATGGACTGCT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8799161-879          2.7e-05  82_[-2]_10
+scaffold-mi5:11652675-11          5.5e-05  18_[+2]_74
+scaffold-mi2:8849320-884          5.5e-05  5_[-2]_87
+scaffold-mi2:8535550-853          5.5e-05  5_[+2]_87
+scaffold-ma1:169417465-1          5.5e-05  48_[+2]_44
+scaffold-mi7:5095010-509          0.00011  84_[+2]_8
+scaffold-mi7:3044361-304          0.00011  37_[-2]_55
+scaffold-mi2:8859367-886          0.00011  22_[-2]_70
+scaffold-mi2:8884153-888          0.00014  90_[+2]_2
+scaffold-mi1:14203264-14          0.00014  5_[+2]_87
+scaffold-ma1:256566298-2          0.00015  16_[-2]_76
+scaffold-mi2:8737083-873           0.0002  64_[+2]_28
+scaffold-mi1:14304569-14          0.00022  32_[-2]_60
+scaffold-mi7:5085382-508          0.00034  7_[-2]_85
+scaffold-mi1:14276792-14          0.00034  44_[+2]_48
+scaffold-mi1:14246402-14          0.00034  27_[+2]_65
+scaffold-mi1:14193627-14          0.00034  22_[-2]_70
+scaffold-mi2:8560973-856          0.00037  15_[+2]_77
+scaffold-mi2:8899216-889          0.00049  1_[-2]_91
+scaffold-mi2:8747448-874          0.00049  31_[+2]_61
+scaffold-mi2:8549923-855          0.00059  55_[-2]_37
+scaffold-ma1:260253568-2          0.00067  36_[-2]_56
+scaffold-ma1:169556765-1          0.00077  72_[-2]_20
+scaffold-mi2:8828181-882          0.00079  47_[+2]_45
+scaffold-mi1:14395528-14           0.0016  3_[+2]_89
+scaffold-mi2:8848793-884           0.0021  26_[-2]_66
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TTTTMTTG width=8 seqs=26
+scaffold-mi2:8799161-879 (   83) TTTTATTG  1 
+scaffold-mi5:11652675-11 (   19) CTTTCTTG  1 
+scaffold-mi2:8849320-884 (    6) CTTTCTTG  1 
+scaffold-mi2:8535550-853 (    6) CTTTCTTG  1 
+scaffold-ma1:169417465-1 (   49) CTTTCTTG  1 
+scaffold-mi7:5095010-509 (   85) TTTTCATG  1 
+scaffold-mi7:3044361-304 (   38) TTTCCTTG  1 
+scaffold-mi2:8859367-886 (   23) TTTTCTAG  1 
+scaffold-mi2:8884153-888 (   91) TTTTATTT  1 
+scaffold-mi1:14203264-14 (    6) TTTTATTT  1 
+scaffold-ma1:256566298-2 (   17) TTCTCTTG  1 
+scaffold-mi2:8737083-873 (   65) TTTCATTG  1 
+scaffold-mi1:14304569-14 (   33) TTCTATTG  1 
+scaffold-mi7:5085382-508 (    8) CTTTCATG  1 
+scaffold-mi1:14276792-14 (   45) TTTTCATT  1 
+scaffold-mi1:14246402-14 (   28) TTTTCATT  1 
+scaffold-mi1:14193627-14 (   23) TTTTCTAT  1 
+scaffold-mi2:8560973-856 (   16) TTTTTTTG  1 
+scaffold-mi2:8899216-889 (    2) TATCCTTG  1 
+scaffold-mi2:8747448-874 (   32) TATTCTAG  1 
+scaffold-mi2:8549923-855 (   56) CTTTATAG  1 
+scaffold-ma1:260253568-2 (   37) TTCTCTAG  1 
+scaffold-ma1:169556765-1 (   73) TATTAATG  1 
+scaffold-mi2:8828181-882 (   48) TTGTATTG  1 
+scaffold-mi1:14395528-14 (    4) TATCATTT  1 
+scaffold-mi2:8848793-884 (   27) TACCATTG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 3813 bayes= 7.92732 E= 2.5e-001 
+ -1134    -15  -1134    165 
+   -34  -1134  -1134    173 
+ -1134    -73   -273    173 
+ -1134    -41  -1134    173 
+    66    117  -1134   -266 
+   -34  -1134  -1134    173 
+   -34  -1134  -1134    173 
+ -1134  -1134    159     -8 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 26 E= 2.5e-001 
+ 0.000000  0.230769  0.000000  0.769231 
+ 0.192308  0.000000  0.000000  0.807692 
+ 0.000000  0.153846  0.038462  0.807692 
+ 0.000000  0.192308  0.000000  0.807692 
+ 0.384615  0.576923  0.000000  0.038462 
+ 0.192308  0.000000  0.000000  0.807692 
+ 0.192308  0.000000  0.000000  0.807692 
+ 0.000000  0.000000  0.769231  0.230769 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTTTMTTG MEME-2 regular expression
+--------------------------------------------------------------------------------
+[TC]TTT[CA]TT[GT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  1.75 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TTCATG MEME-3	width =   6  sites =   9  llr = 75  p-value = 5.8e-001  E-value = 7.8e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  :::a::
+pos.-specific     C  ::a:::
+probability       G  :::::a
+matrix            T  aa::a:
+
+         bits    2.0 ******
+                 1.8 ******
+                 1.6 ******
+                 1.4 ******
+Relative         1.2 ******
+Entropy          1.0 ******
+(12.1 bits)      0.8 ******
+                 0.6 ******
+                 0.4 ******
+                 0.2 ******
+                 0.0 ------
+
+Multilevel           TTCATG
+consensus                  
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value             Site 
+-------------            ------  ----- ---------            ------
+scaffold-mi7:3044361-304     -     25  2.32e-04 TTGCTGTCCT TTCATG ACCTGCATCC
+scaffold-mi2:8811504-881     +     71  2.32e-04 TTATGTAAGG TTCATG TCAGTAAGCG
+scaffold-mi1:14395528-14     +     16  2.32e-04 TCATTTGTCA TTCATG AGCTGTCAGT
+scaffold-mi1:14304569-14     +     70  2.32e-04 TTATTTATCA TTCATG AGCTGTCAGT
+scaffold-mi1:14276792-14     +     23  2.32e-04 TGCTCCCTCA TTCATG AGCTGTCAGT
+scaffold-mi1:14246402-14     +      6  2.32e-04      TGTCA TTCATG AGCTGTCAGT
+scaffold-mi1:14203264-14     +     18  2.32e-04 TTATTTATCA TTCATG AGCTGTCAGT
+scaffold-mi1:14193627-14     +     53  2.32e-04 TTATTCATCA TTCATG AGCTGTCAGT
+scaffold-ma2:4381626-438     +      8  2.32e-04    TATTTTG TTCATG TATTAGCGAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi7:3044361-304          0.00023  24_[-3]_70
+scaffold-mi2:8811504-881          0.00023  70_[+3]_24
+scaffold-mi1:14395528-14          0.00023  15_[+3]_79
+scaffold-mi1:14304569-14          0.00023  69_[+3]_25
+scaffold-mi1:14276792-14          0.00023  22_[+3]_72
+scaffold-mi1:14246402-14          0.00023  5_[+3]_89
+scaffold-mi1:14203264-14          0.00023  17_[+3]_77
+scaffold-mi1:14193627-14          0.00023  52_[+3]_42
+scaffold-ma2:4381626-438          0.00023  7_[+3]_87
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TTCATG width=6 seqs=9
+scaffold-mi7:3044361-304 (   25) TTCATG  1 
+scaffold-mi2:8811504-881 (   71) TTCATG  1 
+scaffold-mi1:14395528-14 (   16) TTCATG  1 
+scaffold-mi1:14304569-14 (   70) TTCATG  1 
+scaffold-mi1:14276792-14 (   23) TTCATG  1 
+scaffold-mi1:14246402-14 (    6) TTCATG  1 
+scaffold-mi1:14203264-14 (   18) TTCATG  1 
+scaffold-mi1:14193627-14 (   53) TTCATG  1 
+scaffold-ma2:4381626-438 (    8) TTCATG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 3895 bayes= 9.3892 E= 7.8e-001 
+  -982   -982   -982    203 
+  -982   -982   -982    203 
+  -982    197   -982   -982 
+   203   -982   -982   -982 
+  -982   -982   -982    203 
+  -982   -982    197   -982 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 9 E= 7.8e-001 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TTCATG MEME-3 regular expression
+--------------------------------------------------------------------------------
+TTCATG
+--------------------------------------------------------------------------------
+
+
+
+
+Time  2.52 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TRAYAA MEME-4	width =   6  sites =  26  llr = 154  p-value = 4.6e-001  E-value = 5.8e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 Description
+--------------------------------------------------------------------------------
+Simplified        A  :5a:aa
+pos.-specific     C  :2:7::
+probability       G  33::::
+matrix            T  71:3::
+
+         bits    2.0   * **
+                 1.8   * **
+                 1.6   * **
+                 1.4   * **
+Relative         1.2 * * **
+Entropy          1.0 * ****
+(8.5 bits)       0.8 * ****
+                 0.6 * ****
+                 0.4 * ****
+                 0.2 ******
+                 0.0 ------
+
+Multilevel           TAACAA
+consensus            GG T  
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value             Site 
+-------------            ------  ----- ---------            ------
+scaffold-mi7:5085382-508     +     90  2.21e-04 TGAGCTTGGC TAACAA TCCTG     
+scaffold-mi7:3034975-303     +     18  2.21e-04 GTAGCCAAGA TAACAA CGTGACTGTG
+scaffold-mi7:3030314-303     -     95  2.21e-04          . TAACAA CGTGACTGTG
+scaffold-mi2:8737083-873     +     75  2.21e-04 TTTCATTGGC TAACAA AGTTTAGAAA
+scaffold-ma4:85128551-85     -     91  2.21e-04       GCTT TAACAA AGTCAAGGCC
+scaffold-mi2:8799161-879     +     61  4.32e-04 AGAATACTGA TAATAA GACTGGATAT
+scaffold-mi2:8553709-855     +     85  4.32e-04 TTCTGTGGGA TAATAA TGGTGGAAAG
+scaffold-mi1:14197539-14     +     10  4.32e-04  TGGTAAACA TAATAA TTCTTTGACA
+scaffold-mi2:8859367-886     -     88  6.65e-04    AAGCCAT TGACAA TAACATTACA
+scaffold-mi1:14304569-14     +     24  6.65e-04 CCCTCCTGAG TGACAA GGTCAATAGA
+scaffold-ma1:260253568-2     +     62  6.65e-04 GACACCTGCC TGACAA GGAGCTGTGG
+scaffold-mi7:3024168-302     +     57  8.97e-04 TTATTCAGCT GAACAA AGGCCCATTA
+scaffold-mi2:8735648-873     +     56  8.97e-04 AAGGGTTCTG GAACAA AGGGAAATTG
+scaffold-mi2:8560973-856     -     71  8.97e-04 TCAAATATGT GAACAA CCAGTTCTAT
+scaffold-mi2:8881756-888     +     68  1.35e-03 AAAAACCTTC TGATAA CAGACTGGAG
+scaffold-mi2:8828181-882     +     61  1.35e-03 TATTGTGCCA TCACAA CACACGTGCC
+scaffold-mi2:8549923-855     -     14  1.35e-03 ACCTATTTAG TCACAA GTTAGTTACC
+scaffold-mi1:14395528-14     +     92  1.35e-03 CCTTGCCAAG TCACAA TAT       
+scaffold-ma1:256566298-2     -     38  1.35e-03 TGTTCACATA TCACAA AAAAACACTG
+scaffold-mi5:11653028-11     -     86  1.57e-03  CCCACCTCT TTACAA CTCACCCAAG
+scaffold-ma1:169417465-1     -     10  1.57e-03 AAAAGCAATA TTACAA CATCTAAAC 
+scaffold-mi2:8753465-875     +     91  1.79e-03 TGGATGAAGG GAATAA GGGA      
+scaffold-mi2:8811504-881     +      3  2.47e-03         GG TTATAA CAGCTCCGAG
+scaffold-mi1:14276792-14     +     54  2.95e-03 GTTTTCATTT GGATAA GAGGAAGATG
+scaffold-mi1:14246402-14     +     37  2.95e-03 GTTTTCATTT GGATAA GAGGAAGATG
+scaffold-mi1:14193627-14     +     84  2.95e-03 GTTTTCATTT GGATAA GAGGAAGATG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi7:5085382-508          0.00022  89_[+4]_5
+scaffold-mi7:3034975-303          0.00022  17_[+4]_77
+scaffold-mi7:3030314-303          0.00022  94_[-4]
+scaffold-mi2:8737083-873          0.00022  74_[+4]_20
+scaffold-ma4:85128551-85          0.00022  90_[-4]_4
+scaffold-mi2:8799161-879          0.00043  60_[+4]_34
+scaffold-mi2:8553709-855          0.00043  84_[+4]_10
+scaffold-mi1:14197539-14          0.00043  9_[+4]_85
+scaffold-mi2:8859367-886          0.00066  87_[-4]_7
+scaffold-mi1:14304569-14          0.00066  23_[+4]_71
+scaffold-ma1:260253568-2          0.00066  61_[+4]_33
+scaffold-mi7:3024168-302           0.0009  56_[+4]_38
+scaffold-mi2:8735648-873           0.0009  55_[+4]_39
+scaffold-mi2:8560973-856           0.0009  70_[-4]_24
+scaffold-mi2:8881756-888           0.0014  67_[+4]_27
+scaffold-mi2:8828181-882           0.0014  60_[+4]_34
+scaffold-mi2:8549923-855           0.0014  13_[-4]_81
+scaffold-mi1:14395528-14           0.0014  91_[+4]_3
+scaffold-ma1:256566298-2           0.0014  37_[-4]_57
+scaffold-mi5:11653028-11           0.0016  85_[-4]_9
+scaffold-ma1:169417465-1           0.0016  9_[-4]_85
+scaffold-mi2:8753465-875           0.0018  90_[+4]_4
+scaffold-mi2:8811504-881           0.0025  2_[+4]_92
+scaffold-mi1:14276792-14           0.0029  53_[+4]_41
+scaffold-mi1:14246402-14           0.0029  36_[+4]_58
+scaffold-mi1:14193627-14           0.0029  83_[+4]_11
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TRAYAA width=6 seqs=26
+scaffold-mi7:5085382-508 (   90) TAACAA  1 
+scaffold-mi7:3034975-303 (   18) TAACAA  1 
+scaffold-mi7:3030314-303 (   95) TAACAA  1 
+scaffold-mi2:8737083-873 (   75) TAACAA  1 
+scaffold-ma4:85128551-85 (   91) TAACAA  1 
+scaffold-mi2:8799161-879 (   61) TAATAA  1 
+scaffold-mi2:8553709-855 (   85) TAATAA  1 
+scaffold-mi1:14197539-14 (   10) TAATAA  1 
+scaffold-mi2:8859367-886 (   88) TGACAA  1 
+scaffold-mi1:14304569-14 (   24) TGACAA  1 
+scaffold-ma1:260253568-2 (   62) TGACAA  1 
+scaffold-mi7:3024168-302 (   57) GAACAA  1 
+scaffold-mi2:8735648-873 (   56) GAACAA  1 
+scaffold-mi2:8560973-856 (   71) GAACAA  1 
+scaffold-mi2:8881756-888 (   68) TGATAA  1 
+scaffold-mi2:8828181-882 (   61) TCACAA  1 
+scaffold-mi2:8549923-855 (   14) TCACAA  1 
+scaffold-mi1:14395528-14 (   92) TCACAA  1 
+scaffold-ma1:256566298-2 (   38) TCACAA  1 
+scaffold-mi5:11653028-11 (   86) TTACAA  1 
+scaffold-ma1:169417465-1 (   10) TTACAA  1 
+scaffold-mi2:8753465-875 (   91) GAATAA  1 
+scaffold-mi2:8811504-881 (    3) TTATAA  1 
+scaffold-mi1:14276792-14 (   54) GGATAA  1 
+scaffold-mi1:14246402-14 (   37) GGATAA  1 
+scaffold-mi1:14193627-14 (   84) GGATAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 3895 bayes= 8.99859 E= 5.8e-001 
+ -1134  -1134      7    158 
+    92    -73      7   -108 
+   203  -1134  -1134  -1134 
+ -1134    135  -1134     50 
+   203  -1134  -1134  -1134 
+   203  -1134  -1134  -1134 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 26 E= 5.8e-001 
+ 0.000000  0.000000  0.269231  0.730769 
+ 0.461538  0.153846  0.269231  0.115385 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.653846  0.000000  0.346154 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TRAYAA MEME-4 regular expression
+--------------------------------------------------------------------------------
+[TG][AG]A[CT]AA
+--------------------------------------------------------------------------------
+
+
+
+
+Time  3.28 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF ACAKGWATGAT MEME-5	width =  11  sites =   2  llr = 28  p-value = 3.7e-001  E-value = 4.3e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 Description
+--------------------------------------------------------------------------------
+Simplified        A  a:a::5a::a:
+pos.-specific     C  :a:::::::::
+probability       G  :::5a:::a::
+matrix            T  :::5:5:a::a
+
+         bits    2.0 *** * *****
+                 1.8 *** * *****
+                 1.6 *** * *****
+                 1.4 *** * *****
+Relative         1.2 *** * *****
+Entropy          1.0 ***********
+(20.1 bits)      0.8 ***********
+                 0.6 ***********
+                 0.4 ***********
+                 0.2 ***********
+                 0.0 -----------
+
+Multilevel           ACAGGAATGAT
+consensus               T T     
+sequence                        
+                                
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site  
+-------------            ------  ----- ---------            -----------
+scaffold-mi2:8549923-855     +     73  4.22e-07 GTAATACAAA ACATGTATGAT TATGCTAAAA
+scaffold-mi2:8737083-873     +     15  8.64e-07 AACGGAGTGT ACAGGAATGAT TGATGTCTTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8549923-855          4.2e-07  72_[+5]_17
+scaffold-mi2:8737083-873          8.6e-07  14_[+5]_75
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF ACAKGWATGAT width=11 seqs=2
+scaffold-mi2:8549923-855 (   73) ACATGTATGAT  1 
+scaffold-mi2:8737083-873 (   15) ACAGGAATGAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 11 n= 3690 bayes= 9.08121 E= 4.3e-001 
+   203   -765   -765   -765 
+  -765    196   -765   -765 
+   203   -765   -765   -765 
+  -765   -765     96    103 
+  -765   -765    196   -765 
+   103   -765   -765    103 
+   203   -765   -765   -765 
+  -765   -765   -765    203 
+  -765   -765    196   -765 
+   203   -765   -765   -765 
+  -765   -765   -765    203 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 11 nsites= 2 E= 4.3e-001 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.500000  0.500000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.500000  0.000000  0.000000  0.500000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ACAKGWATGAT MEME-5 regular expression
+--------------------------------------------------------------------------------
+ACA[GT]G[AT]ATGAT
+--------------------------------------------------------------------------------
+
+
+
+
+Time  4.02 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF ADCAGTGGT MEME-6	width =   9  sites =   4  llr = 44  p-value = 6.8e-001  E-value = 1.0e+000
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 Description
+--------------------------------------------------------------------------------
+Simplified        A  a5:a:3:::
+pos.-specific     C  ::a::::::
+probability       G  :3::a:aa:
+matrix            T  :3:::8::a
+
+         bits    2.0 * *** ***
+                 1.8 * *** ***
+                 1.6 * *** ***
+                 1.4 * *** ***
+Relative         1.2 * *******
+Entropy          1.0 * *******
+(15.7 bits)      0.8 * *******
+                 0.6 *********
+                 0.4 *********
+                 0.2 *********
+                 0.0 ---------
+
+Multilevel           AACAGTGGT
+consensus             G   A   
+sequence              T       
+                              
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site 
+-------------            ------  ----- ---------            ---------
+scaffold-mi2:8849320-884     +     79  3.71e-06 ATGCAGCCTG AACAGTGGT GGGATTCAAA
+scaffold-mi2:8560973-856     -     92  3.71e-06          . AACAGTGGT GGGATTCAAA
+scaffold-mi2:8799161-879     -     29  1.13e-05 GTGCTTCAGG ATCAGTGGT GAGATTCAGC
+scaffold-mi2:8899216-889     +     71  2.27e-05 CTGCTTCTAG AGCAGAGGT GGGGAACTAT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8849320-884          3.7e-06  78_[+6]_13
+scaffold-mi2:8560973-856          3.7e-06  91_[-6]
+scaffold-mi2:8799161-879          1.1e-05  28_[-6]_63
+scaffold-mi2:8899216-889          2.3e-05  70_[+6]_21
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF ADCAGTGGT width=9 seqs=4
+scaffold-mi2:8849320-884 (   79) AACAGTGGT  1 
+scaffold-mi2:8560973-856 (   92) AACAGTGGT  1 
+scaffold-mi2:8799161-879 (   29) ATCAGTGGT  1 
+scaffold-mi2:8899216-889 (   71) AGCAGAGGT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 9 n= 3772 bayes= 9.87958 E= 1.0e+000 
+   203   -865   -865   -865 
+   103   -865     -3      3 
+  -865    196   -865   -865 
+   203   -865   -865   -865 
+  -865   -865    196   -865 
+     3   -865   -865    162 
+  -865   -865    196   -865 
+  -865   -865    196   -865 
+  -865   -865   -865    203 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 9 nsites= 4 E= 1.0e+000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.500000  0.000000  0.250000  0.250000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.250000  0.000000  0.000000  0.750000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif ADCAGTGGT MEME-6 regular expression
+--------------------------------------------------------------------------------
+A[AGT]CAG[TA]GGT
+--------------------------------------------------------------------------------
+
+
+
+
+Time  4.75 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TGYTCTAA MEME-7	width =   8  sites =   6  llr = 53  p-value = 3.1e-001  E-value = 3.6e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::2:::a8
+pos.-specific     C  ::52a2:2
+probability       G  :a::::::
+matrix            T  a:38:8::
+
+         bits    2.0 **  * * 
+                 1.8 **  * * 
+                 1.6 **  * * 
+                 1.4 ** *****
+Relative         1.2 ** *****
+Entropy          1.0 ** *****
+(12.7 bits)      0.8 ** *****
+                 0.6 ********
+                 0.4 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           TGCTCTAA
+consensus              T     
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+scaffold-mi2:8553709-855     +      9  1.45e-05   GCTGGTTC TGCTCTAA GGCCGTTGGC
+scaffold-mi2:8859367-886     +     38  2.83e-05 AAACAAGTAA TGTTCTAA TTGGGAGACC
+scaffold-mi2:8849320-884     -     62  4.22e-05 TCAGGCTGCA TGATCTAA AGCCAAGTTA
+scaffold-mi2:8811504-881     -     23  8.78e-05 GCCTCTGGCC TGCTCCAA TCATCTCGGA
+scaffold-ma1:260253568-2     +     23  8.78e-05 AAAGACTACG TGCTCTAC GCGATGCTAG
+scaffold-mi7:3044361-304     +     54  1.31e-04 AAACAGCCCG TGTCCTAA CCCACCCAGG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8553709-855          1.5e-05  8_[+7]_84
+scaffold-mi2:8859367-886          2.8e-05  37_[+7]_55
+scaffold-mi2:8849320-884          4.2e-05  61_[-7]_31
+scaffold-mi2:8811504-881          8.8e-05  22_[-7]_70
+scaffold-ma1:260253568-2          8.8e-05  22_[+7]_70
+scaffold-mi7:3044361-304          0.00013  53_[+7]_39
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TGYTCTAA width=8 seqs=6
+scaffold-mi2:8553709-855 (    9) TGCTCTAA  1 
+scaffold-mi2:8859367-886 (   38) TGTTCTAA  1 
+scaffold-mi2:8849320-884 (   62) TGATCTAA  1 
+scaffold-mi2:8811504-881 (   23) TGCTCCAA  1 
+scaffold-ma1:260253568-2 (   23) TGCTCTAC  1 
+scaffold-mi7:3044361-304 (   54) TGTCCTAA  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 3813 bayes= 9.75754 E= 3.6e-001 
+  -923   -923   -923    203 
+  -923   -923    197   -923 
+   -55     97   -923     45 
+  -923    -62   -923    177 
+  -923    197   -923   -923 
+  -923    -62   -923    177 
+   203   -923   -923   -923 
+   177    -62   -923   -923 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 6 E= 3.6e-001 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.166667  0.500000  0.000000  0.333333 
+ 0.000000  0.166667  0.000000  0.833333 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  0.166667  0.000000  0.833333 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.833333  0.166667  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGYTCTAA MEME-7 regular expression
+--------------------------------------------------------------------------------
+TG[CT]TCTAA
+--------------------------------------------------------------------------------
+
+
+
+
+Time  5.45 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AYATGSATGRW MEME-8	width =  11  sites =   2  llr = 25  p-value = 4.0e-001  E-value = 4.8e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 Description
+--------------------------------------------------------------------------------
+Simplified        A  a:a:::a::55
+pos.-specific     C  :5:::5:::::
+probability       G  ::::a5::a5:
+matrix            T  :5:a:::a::5
+
+         bits    2.0 * *** ***  
+                 1.8 * *** ***  
+                 1.6 * *** ***  
+                 1.4 * *** ***  
+Relative         1.2 * *** ***  
+Entropy          1.0 ***********
+(18.1 bits)      0.8 ***********
+                 0.6 ***********
+                 0.4 ***********
+                 0.2 ***********
+                 0.0 -----------
+
+Multilevel           ACATGCATGAA
+consensus             T   G   GT
+sequence                        
+                                
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value               Site  
+-------------            ------  ----- ---------            -----------
+scaffold-mi2:8753465-875     +     78  8.43e-07 ATATACATGT ATATGGATGAA GGGAATAAGG
+scaffold-mi2:8828181-882     -     30  3.54e-06 CAAATGAAAT ACATGCATGGT ACTGTAAGGT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8753465-875          8.4e-07  77_[+8]_12
+scaffold-mi2:8828181-882          3.5e-06  29_[-8]_60
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF AYATGSATGRW width=11 seqs=2
+scaffold-mi2:8753465-875 (   78) ATATGGATGAA  1 
+scaffold-mi2:8828181-882 (   30) ACATGCATGGT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 11 n= 3690 bayes= 9.26209 E= 4.8e-001 
+   203   -765   -765   -765 
+  -765     96   -765    103 
+   203   -765   -765   -765 
+  -765   -765   -765    203 
+  -765   -765    196   -765 
+  -765     96     96   -765 
+   203   -765   -765   -765 
+  -765   -765   -765    203 
+  -765   -765    196   -765 
+   103   -765     96   -765 
+   103   -765   -765    103 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 11 nsites= 2 E= 4.8e-001 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.500000  0.000000  0.500000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.500000  0.500000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.500000  0.000000  0.500000  0.000000 
+ 0.500000  0.000000  0.000000  0.500000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AYATGSATGRW MEME-8 regular expression
+--------------------------------------------------------------------------------
+A[CT]ATG[CG]ATG[AG][AT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time  6.14 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF CCACTT MEME-9	width =   6  sites =   5  llr = 39  p-value = 3.2e-001  E-value = 3.7e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::a:2:
+pos.-specific     C  aa:a::
+probability       G  ::::::
+matrix            T  ::::8a
+
+         bits    2.0 **** *
+                 1.8 **** *
+                 1.6 **** *
+                 1.4 **** *
+Relative         1.2 ******
+Entropy          1.0 ******
+(11.3 bits)      0.8 ******
+                 0.6 ******
+                 0.4 ******
+                 0.2 ******
+                 0.0 ------
+
+Multilevel           CCACTT
+consensus                A 
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value             Site 
+-------------            ------  ----- ---------            ------
+scaffold-mi2:8799161-879     -      4  2.44e-04 CTGGTTCGTA CCACTT CGG       
+scaffold-mi1:14276792-14     -     88  2.44e-04    CAAGGAA CCACTT CTTCTCGTTT
+scaffold-mi1:14246402-14     -     71  2.44e-04 TGGCAAAGAA CCACTT CTTCTCGTTT
+scaffold-mi1:14203264-14     -     83  2.44e-04 TGGCAAGGAA CCACTT CTTCTCATTT
+scaffold-ma2:4375904-437     +     72  4.87e-04 AAATCTTTAA CCACAT TATTTCTCAG
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8799161-879          0.00024  3_[-9]_91
+scaffold-mi1:14276792-14          0.00024  87_[-9]_7
+scaffold-mi1:14246402-14          0.00024  70_[-9]_24
+scaffold-mi1:14203264-14          0.00024  82_[-9]_12
+scaffold-ma2:4375904-437          0.00049  71_[+9]_23
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF CCACTT width=6 seqs=5
+scaffold-mi2:8799161-879 (    4) CCACTT  1 
+scaffold-mi1:14276792-14 (   88) CCACTT  1 
+scaffold-mi1:14246402-14 (   71) CCACTT  1 
+scaffold-mi1:14203264-14 (   83) CCACTT  1 
+scaffold-ma2:4375904-437 (   72) CCACAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 3895 bayes= 10.1606 E= 3.7e-001 
+  -897    196   -897   -897 
+  -897    196   -897   -897 
+   203   -897   -897   -897 
+  -897    196   -897   -897 
+   -29   -897   -897    171 
+  -897   -897   -897    203 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 5 E= 3.7e-001 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.200000  0.000000  0.000000  0.800000 
+ 0.000000  0.000000  0.000000  1.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif CCACTT MEME-9 regular expression
+--------------------------------------------------------------------------------
+CCAC[TA]T
+--------------------------------------------------------------------------------
+
+
+
+
+Time  6.82 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AGKMAGGG MEME-10	width =   8  sites =   7  llr = 62  p-value = 6.7e-001  E-value = 9.7e-001
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 Description
+--------------------------------------------------------------------------------
+Simplified        A  a::6a:::
+pos.-specific     C  :::4::1:
+probability       G  :a4::99a
+matrix            T  ::6::1::
+
+         bits    2.0 **  *  *
+                 1.8 **  *  *
+                 1.6 **  *  *
+                 1.4 **  ****
+Relative         1.2 **  ****
+Entropy          1.0 ********
+(12.8 bits)      0.8 ********
+                 0.6 ********
+                 0.4 ********
+                 0.2 ********
+                 0.0 --------
+
+Multilevel           AGTAAGGG
+consensus              GC    
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+scaffold-mi2:8828181-882     +      6  1.52e-05      GTTTA AGTAAGGG ACTGGGACCT
+scaffold-mi5:11649503-11     -     58  4.72e-05 CCCCCTGCGC AGGAAGGG CCCATCTGAA
+scaffold-ma4:85128551-85     +     33  4.72e-05 CGATGCACAC AGGAAGGG ACTCGTTGAA
+scaffold-ma2:4292002-429     +     75  4.72e-05 TCCTGCGAGC AGTCAGGG TAAAACGGGG
+scaffold-mi7:5095010-509     -     15  6.39e-05 GCAAGGGCTA AGGCAGGG GCGTGCAAAC
+scaffold-mi2:8811504-881     +     79  9.37e-05 GGTTCATGTC AGTAAGCG GGCAGGCCTA
+scaffold-mi7:3044361-304     +      9  1.24e-04   CCTTGCAG AGTCATGG ATGCAGGTCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-mi2:8828181-882          1.5e-05  5_[+10]_87
+scaffold-mi5:11649503-11          4.7e-05  57_[-10]_35
+scaffold-ma4:85128551-85          4.7e-05  32_[+10]_60
+scaffold-ma2:4292002-429          4.7e-05  74_[+10]_18
+scaffold-mi7:5095010-509          6.4e-05  14_[-10]_78
+scaffold-mi2:8811504-881          9.4e-05  78_[+10]_14
+scaffold-mi7:3044361-304          0.00012  8_[+10]_84
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF AGKMAGGG width=8 seqs=7
+scaffold-mi2:8828181-882 (    6) AGTAAGGG  1 
+scaffold-mi5:11649503-11 (   58) AGGAAGGG  1 
+scaffold-ma4:85128551-85 (   33) AGGAAGGG  1 
+scaffold-ma2:4292002-429 (   75) AGTCAGGG  1 
+scaffold-mi7:5095010-509 (   15) AGGCAGGG  1 
+scaffold-mi2:8811504-881 (   79) AGTAAGCG  1 
+scaffold-mi7:3044361-304 (    9) AGTCATGG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 3813 bayes= 9.46171 E= 9.7e-001 
+   203   -945   -945   -945 
+  -945   -945    197   -945 
+  -945   -945     74    123 
+   123     74   -945   -945 
+   203   -945   -945   -945 
+  -945   -945    174    -77 
+  -945    -84    174   -945 
+  -945   -945    197   -945 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 7 E= 9.7e-001 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.428571  0.571429 
+ 0.571429  0.428571  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.857143  0.142857 
+ 0.000000  0.142857  0.857143  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AGKMAGGG MEME-10 regular expression
+--------------------------------------------------------------------------------
+AG[TG][AC]AGGG
+--------------------------------------------------------------------------------
+
+
+
+
+Time  7.50 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+scaffold-ma1:169417465-1         3.63e-02  32_[+1(7.61e-05)]_2_[+2(5.47e-05)]_\
+    44
+scaffold-ma1:169556765-1         6.28e-02  100
+scaffold-ma1:256566298-2         9.34e-02  100
+scaffold-ma1:260253568-2         1.85e-02  22_[+7(8.78e-05)]_70
+scaffold-ma2:4292002-429         8.58e-01  74_[+10(4.72e-05)]_18
+scaffold-ma2:4375904-437         1.02e-01  100
+scaffold-ma2:4381626-438         2.09e-02  100
+scaffold-ma4:85128551-85         3.94e-02  32_[+10(4.72e-05)]_60
+scaffold-mi1:14193627-14         3.05e-05  58_[-1(2.95e-07)]_28
+scaffold-mi1:14197539-14         2.74e-01  100
+scaffold-mi1:14203264-14         3.01e-05  13_[-5(1.80e-05)]_76
+scaffold-mi1:14246402-14         1.99e-05  11_[-1(2.95e-07)]_75
+scaffold-mi1:14276792-14         1.17e-05  28_[-1(2.95e-07)]_58
+scaffold-mi1:14304569-14         2.13e-05  75_[-1(2.95e-07)]_11
+scaffold-mi1:14395528-14         3.89e-02  100
+scaffold-mi2:8535550-853         6.62e-03  5_[+2(5.47e-05)]_56_[+8(1.77e-05)]_\
+    20
+scaffold-mi2:8549923-855         1.43e-03  72_[+5(4.22e-07)]_17
+scaffold-mi2:8553709-855         6.01e-04  8_[+7(1.45e-05)]_29_[-1(1.25e-05)]_\
+    41
+scaffold-mi2:8560973-856         3.72e-04  38_[+1(2.55e-05)]_39_[-6(3.71e-06)]
+scaffold-mi2:8735648-873         2.46e-01  100
+scaffold-mi2:8737083-873         1.20e-03  14_[+5(8.64e-07)]_75
+scaffold-mi2:8747448-874         4.63e-02  47_[+5(1.80e-05)]_42
+scaffold-mi2:8753465-875         4.19e-03  56_[+8(1.77e-05)]_10_[+8(8.43e-07)]_\
+    12
+scaffold-mi2:8799161-879         2.07e-04  28_[-6(1.13e-05)]_7_[+1(1.69e-05)]_\
+    24_[-2(2.70e-05)]_10
+scaffold-mi2:8811504-881         5.72e-03  22_[-7(8.78e-05)]_48_\
+    [+10(9.37e-05)]_14
+scaffold-mi2:8828181-882         1.22e-05  5_[+10(1.52e-05)]_16_[-8(3.54e-06)]_\
+    60
+scaffold-mi2:8848793-884         5.61e-02  100
+scaffold-mi2:8849320-884         2.12e-04  5_[-2(5.47e-05)]_48_[-7(4.22e-05)]_\
+    9_[+6(3.71e-06)]_13
+scaffold-mi2:8859367-886         2.01e-03  37_[+7(2.83e-05)]_25_[-1(5.12e-05)]_\
+    16
+scaffold-mi2:8881756-888         2.51e-01  100
+scaffold-mi2:8884153-888         4.64e-01  100
+scaffold-mi2:8899216-889         5.95e-03  26_[-1(4.60e-05)]_30_[+6(2.27e-05)]_\
+    21
+scaffold-mi5:11649503-11         3.79e-01  57_[-10(4.72e-05)]_35
+scaffold-mi5:11652675-11         6.71e-01  18_[+2(5.47e-05)]_74
+scaffold-mi5:11653028-11         2.27e-01  100
+scaffold-mi7:3024168-302         1.11e-01  23_[-1(2.24e-05)]_63
+scaffold-mi7:3030314-303         1.44e-01  29_[+1(7.61e-05)]_57
+scaffold-mi7:3034975-303         4.32e-01  100
+scaffold-mi7:3044361-304         8.22e-04  77_[-1(5.68e-05)]_9
+scaffold-mi7:5085382-508         1.43e-01  100
+scaffold-mi7:5095010-509         1.50e-02  14_[-10(6.39e-05)]_78
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (10) found.
+********************************************************************************
+
+CPU: noble-meme.grid.gs.washington.edu
+
+********************************************************************************

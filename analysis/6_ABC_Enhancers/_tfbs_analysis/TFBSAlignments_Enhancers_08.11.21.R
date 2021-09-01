@@ -15,7 +15,7 @@ rvg4.thresh <- as.numeric(boundThresholds %>% filter(sample=='RVG4') %>% select(
   
 # SVMP --------------------------------------------------------------------
 
-svmp.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_alignTFBS.txt',
+svmp.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_alignTFBS.txt',
                         col_names = c('PER_ID','start','end','tfbs_split','strand','RVG11_Footprint','RVG1_Footprint','RVG4_Footprint')) %>% 
   mutate(tfbs_id = str_split_fixed(tfbs_split,'_',2)[,1]) %>% 
   mutate(symbol = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
@@ -32,21 +32,23 @@ svmp.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVe
   select(-Median1DPE.y,-Median1DPE.x,-IDsplit) %>% 
   ungroup() %>% 
   arrange(-Median1DPE) %>% 
+  mutate(PER_ID = str_remove_all(PER_ID,'_R_')) %>% 
   mutate(PER_ID = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
+  mutate(PER_ID = factor(PER_ID,levels=unique(.$PER_ID))) %>% 
   mutate(avg_footprint = rowMeans(.[,6:8])) %>% 
   mutate(RVG11.bound = ifelse(RVG11_Footprint >= rvg11.thresh,1,0),
          RVG1.bound = ifelse(RVG1_Footprint >= rvg1.thresh,1,0),
          RVG4.bound = ifelse(RVG4_Footprint >= rvg4.thresh,1,0)) %>% 
-  mutate(tot.bound = rowSums(.[,14:16]))
+  mutate(tot.bound = rowSums(.[,14:16])) 
   
-svmp.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
+svmp.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
 
-svmp.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>% 
+svmp.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVMP.vs.NonVen/tfbs_aligned/SVMP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>%
   mutate(PER_ID = str_split_fixed(X1,'[::]',2)[,1]) %>% 
   filter(PER_ID %in% svmp.tf.ali$PER_ID) %>% 
   mutate(PER_ID = factor(PER_ID,levels=unique(svmp.tf.ali$PER_ID))) %>% 
   mutate(X2 = X2 - 1, X3 = X3 + 1) %>% 
-  select(4,2,3)
+  select(4,2,3) 
 
 svmp.splits <- svmp.tf.ali %>%
   filter(str_detect(tfbs_split,'split')) %>%
@@ -54,6 +56,7 @@ svmp.splits <- svmp.tf.ali %>%
   group_by(PER_ID,tfbs_id,avg_footprint,strand) %>%
   mutate(split_start = min(end), split_end = max(start)) %>%
   select(tfbs=tfbs_id,split_start,split_end) %>%
+  mutate(PER_ID = factor(PER_ID,levels=unique(svmp.tf.ali$PER_ID))) %>%
   unique()
 
 svmp.p1 <- ggplot(svmp.tf.ali,aes(xmin=start,xmax=end,ymin=0,ymax=avg_footprint*strand,fill=tfbs_id)) +
@@ -65,7 +68,7 @@ svmp.p1 <- ggplot(svmp.tf.ali,aes(xmin=start,xmax=end,ymin=0,ymax=avg_footprint*
   facet_wrap(~PER_ID,ncol = 1,strip.position = 'left') +
   ylab('Strand (Pos = 1, Neg = -1) * Footprint Score')+
   xlab('Relative Position') +
-  coord_cartesian(xlim =c(0,max(svmp.tf.ali$end + 15)),clip = 'on',expand = F)+
+  coord_cartesian(xlim =c(min(svmp.tf.ali$start - 15),max(svmp.tf.ali$end + 15)),clip = 'on',expand = F)+
   # scale_fill_identity() +
   # scale_color_identity() +
   theme_classic(base_size = 16) +
@@ -81,7 +84,7 @@ svmp.p1
 svmp.p2 <- ggplot(svmp.cons_score,aes(x=position,y=score)) +
   geom_area(fill='dodgerblue3',alpha=0.5) +
   scale_y_continuous(limits=c(0,1.1))+
-  coord_cartesian(xlim =c(0,max(svmp.tf.ali$end + 15)),clip = 'on',expand = F)+
+  coord_cartesian(xlim =c(min(svmp.tf.ali$start - 15),max(svmp.tf.ali$end + 15)),clip = 'on',expand = F)+
   # scale_fill_continuous_sequential('Mint') +
   ylab('Consensus Score') +
   xlab('Relative Position')+
@@ -91,16 +94,15 @@ svmp.p3 <- ggplot(svmp.tf.ali %>% select(PER_ID,Median1DPE,meanExp) %>% unique()
   geom_bar(stat='identity') +
   coord_flip() +
   scale_fill_manual(values=c('FALSE'='firebrick4','TRUE'='lightpink')) +
-  scale_y_continuous(expand=c(0,0),limits=c(0,max(svmp.tf.ali$Median1DPE)*1.1),position = 'left') +
-  theme_classic(base_size = 16) + theme(axis.title.y = element_blank(),axis.title.x = element_blank())
+  theme_classic(base_size = 16) + theme(axis.title.y = element_blank(),axis.title.x = element_blank(),axis.text.y = element_blank())
 
-svmp.all <- svmp.p1 + svmp.p3 + svmp.p2 + plot_spacer() + plot_layout(heights = c(4,1),widths = c(5,2),nrow = 2)
+svmp.all <- svmp.p1 + svmp.p3 + svmp.p2 + plot_spacer() + plot_layout(heights = c(4,1),widths = c(5,1),nrow = 2)
 svmp.all
 
 
 # SVSP --------------------------------------------------------------------
 
-SVSP.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_alignTFBS.txt',
+SVSP.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_alignTFBS.txt',
                         col_names = c('PER_ID','start','end','tfbs_split','strand','RVG11_Footprint','RVG1_Footprint','RVG4_Footprint')) %>% 
   mutate(tfbs_id = str_split_fixed(tfbs_split,'_',2)[,1]) %>% 
   mutate(symbol = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
@@ -117,16 +119,18 @@ SVSP.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVe
   select(-Median1DPE.y,-Median1DPE.x,-IDsplit) %>% 
   ungroup() %>% 
   arrange(-Median1DPE) %>% 
+  mutate(PER_ID = str_remove_all(PER_ID,'_R_')) %>% 
   mutate(PER_ID = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
+  mutate(PER_ID = factor(PER_ID,levels=unique(.$PER_ID))) %>% 
   mutate(avg_footprint = rowMeans(.[,6:8])) %>% 
   mutate(RVG11.bound = ifelse(RVG11_Footprint >= rvg11.thresh,1,0),
          RVG1.bound = ifelse(RVG1_Footprint >= rvg1.thresh,1,0),
          RVG4.bound = ifelse(RVG4_Footprint >= rvg4.thresh,1,0)) %>% 
   mutate(tot.bound = rowSums(.[,14:16]))
 
-SVSP.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
+SVSP.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
 
-SVSP.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>% 
+SVSP.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/SVSP.vs.NonVen/tfbs_aligned/SVSP_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>% 
   mutate(PER_ID = str_split_fixed(X1,'[::]',2)[,1]) %>% 
   filter(PER_ID %in% SVSP.tf.ali$PER_ID) %>% 
   mutate(PER_ID = factor(PER_ID,levels=unique(SVSP.tf.ali$PER_ID))) %>% 
@@ -139,6 +143,7 @@ SVSP.splits <- SVSP.tf.ali %>%
   group_by(PER_ID,tfbs_id,avg_footprint,strand) %>%
   mutate(split_start = min(end), split_end = max(start)) %>%
   select(tfbs=tfbs_id,split_start,split_end) %>%
+  mutate(PER_ID = factor(PER_ID,levels=unique(SVSP.tf.ali$PER_ID))) %>% 
   unique()
 
 SVSP.p1 <- ggplot(SVSP.tf.ali,aes(xmin=start,xmax=end,ymin=0,ymax=avg_footprint*strand,fill=tfbs_id)) +
@@ -182,9 +187,13 @@ SVSP.p3 <- ggplot(SVSP.tf.ali %>% select(PER_ID,Median1DPE,meanExp) %>% unique()
 SVSP.all <- SVSP.p1 + SVSP.p3 + SVSP.p2 + plot_spacer() + plot_layout(heights = c(4,1),widths = c(5,1),nrow = 2)
 SVSP.all
 
+
+
+
+
 # pla2 --------------------------------------------------------------------
 
-pla2.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_alignTFBS.txt',
+pla2.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_alignTFBS.txt',
                         col_names = c('PER_ID','start','end','tfbs_split','strand','RVG11_Footprint','RVG1_Footprint','RVG4_Footprint')) %>% 
   mutate(tfbs_id = str_split_fixed(tfbs_split,'_',2)[,1]) %>% 
   mutate(symbol = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
@@ -201,16 +210,18 @@ pla2.tf.ali <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVe
   select(-Median1DPE.y,-Median1DPE.x,-IDsplit) %>% 
   ungroup() %>% 
   arrange(-Median1DPE) %>% 
+  mutate(PER_ID = str_remove_all(PER_ID,'_R_')) %>% 
   mutate(PER_ID = str_split_fixed(PER_ID,'[::]',2)[,1]) %>% 
+  mutate(PER_ID = factor(PER_ID,levels=unique(.$PER_ID))) %>%   
   mutate(avg_footprint = rowMeans(.[,6:8])) %>% 
   mutate(RVG11.bound = ifelse(RVG11_Footprint >= rvg11.thresh,1,0),
          RVG1.bound = ifelse(RVG1_Footprint >= rvg1.thresh,1,0),
          RVG4.bound = ifelse(RVG4_Footprint >= rvg4.thresh,1,0)) %>% 
   mutate(tot.bound = rowSums(.[,14:16]))
 
-pla2.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
+pla2.cons_score <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_consScore.txt',col_names = c('position','score'))
 
-pla2.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.14.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>% 
+pla2.gaps <- read_tsv('./analysis/6_ABC_Enhancers/_tfbs_analysis/pla2.vs.NonVen/tfbs_aligned/pla2_EnhancerPredictionsFull_08.18.21.aln.mafft.singleLine_gaps.txt',col_names = F) %>% 
   mutate(PER_ID = str_split_fixed(X1,'[::]',2)[,1]) %>% 
   filter(PER_ID %in% pla2.tf.ali$PER_ID) %>% 
   mutate(PER_ID = factor(PER_ID,levels=unique(pla2.tf.ali$PER_ID))) %>% 
@@ -223,6 +234,7 @@ pla2.splits <- pla2.tf.ali %>%
   group_by(PER_ID,tfbs_id,avg_footprint,strand) %>%
   mutate(split_start = min(end), split_end = max(start)) %>%
   select(tfbs=tfbs_id,split_start,split_end) %>%
+  mutate(PER_ID = factor(PER_ID,levels=unique(pla2.tf.ali$PER_ID))) %>% 
   unique()
 
 pla2.p1 <- ggplot(pla2.tf.ali,aes(xmin=start,xmax=end,ymin=0,ymax=avg_footprint*strand,fill=tfbs_id)) +

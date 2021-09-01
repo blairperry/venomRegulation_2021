@@ -1,0 +1,17 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+TATGAGA	MEME-1	scaffold-mi1	14075448	14075454	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14075493	14075499	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14190219	14190225	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14190264	14190270	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14242326	14242332	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14272766	14272772	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14272811	14272817	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14300851	14300857	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14300896	14300902	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14338459	14338465	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14393390	14393396	+	14.4344	4.13e-05	0.0592	TATGAGA
+TATGAGA	MEME-1	scaffold-mi1	14393435	14393441	+	14.4344	4.13e-05	0.0592	TATGAGA
+
+# FIMO (Find Individual Motif Occurrences): Version 5.3.3 compiled on Feb 21 2021 at 14:52:27
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif TATGAGA meme_out/meme.xml ./allVenom_Promoters_BoundFootprintRegs.fa
