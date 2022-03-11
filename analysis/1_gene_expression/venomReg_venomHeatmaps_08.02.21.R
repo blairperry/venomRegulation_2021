@@ -23,6 +23,7 @@ ven.annot <- read_xlsx('./data/venom_annotation/fullVenomAnnotation_02.20.20.xls
 ven.vs.nonven <- read_csv('./analysis/1_gene_expression/pairwise_results/cvv_Venom.vs.NonVenom_VG_PairwiseResult_08.02.21.csv') %>% 
   filter(IHW_pvalue < 0.05) %>%
   filter(log2FoldChange > 0) %>%
+  mutate(X1=`...1`) %>% 
   mutate(txid = str_split_fixed(X1,'_',2)[,2]) 
   
   

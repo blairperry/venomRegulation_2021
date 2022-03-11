@@ -1,0 +1,14 @@
+scaffold-mi1	14075354	14075609	PROMOTER_crovir-transcript-SVMP_2	.	-1	-1	.	.	.	0
+scaffold-mi1	14190112	14190415	PROMOTER_crovir-transcript-SVMP_5	.	-1	-1	.	.	.	0
+scaffold-mi1	14242223	14242565	PROMOTER_crovir-transcript-SVMP_6	.	-1	-1	.	.	.	0
+scaffold-mi1	14272630	14273072	PROMOTER_crovir-transcript-SVMP_7	.	-1	-1	.	.	.	0
+scaffold-mi1	14300714	14301093	PROMOTER_crovir-transcript-SVMP_8	.	-1	-1	.	.	.	0
+scaffold-mi1	14393376	14393535	PROMOTER_crovir-transcript-SVMP_10	.	-1	-1	.	.	.	0
+scaffold-mi1	14338292	14338611	PROMOTER_crovir-transcript-SVMP_9	.	-1	-1	.	.	.	0
+scaffold-mi1	14193627	14194151	PER9_SVMP_5	.	-1	-1	.	.	.	0
+scaffold-mi1	14197539	14198130	PER10_SVMP_5	scaffold-mi1	14197457	14197604	Tsirtalis_rnd-3_family-382	PLE/Penelope	1	65
+scaffold-mi1	14203264	14203870	PER11_SVMP_5	scaffold-mi1	14203865	14203976	Consensus_tham_cr1_rnd4.out	LINE/CR1	1	5
+scaffold-mi1	14246402	14246862	PER12_SVMP_6	.	-1	-1	.	.	.	0
+scaffold-mi1	14276792	14277191	PER13_SVMP_7	scaffold-mi1	14276514	14276884	LINE2_CH1	LINE/CR1-L2	1	92
+scaffold-mi1	14304569	14305089	PER14_SVMP_8	.	-1	-1	.	.	.	0
+scaffold-mi1	14395528	14396031	PER15_SVMP_10	.	-1	-1	.	.	.	0

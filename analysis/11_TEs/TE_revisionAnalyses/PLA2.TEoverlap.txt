@@ -1,0 +1,10 @@
+scaffold-mi7	3021849	3022376	PROMOTER_crovir-transcript-PLA2_gIIE	scaffold-mi7	3021943	3021990	Consensus_casarea_pcr1_rnd3.out	LINE/CR1	1	47
+scaffold-mi7	3039335	3039744	PROMOTER_crovir-transcript-PLA2_C1	scaffold-mi7	3039726	3039786	Consensus_casarea_pcr1_rnd3.out	LINE/CR1	1	18
+scaffold-mi7	3041721	3042060	PROMOTER_crovir-transcript-PLA2_A1	scaffold-mi7	3041980	3042062	Agkistrodon_rnd-1_family-415	DNA/TcMar-Tigger	1	80
+scaffold-mi7	3029309	3029583	PROMOTER_crovir-transcript-PLA2_B1	scaffold-mi7	3029257	3029327	Agkistrodon_rnd-1_family-415	DNA/TcMar-Tigger	1	18
+scaffold-mi7	3029309	3029583	PROMOTER_crovir-transcript-PLA2_B1	scaffold-mi7	3029274	3029336	NajaNaja_rnd-4_family-980	LINE/CR1	1	27
+scaffold-mi7	3024168	3024690	PER36_PLA2_B1.PLA2_K.PLA2_A1	scaffold-mi7	3024352	3024445	Cmitchellii_rnd-5_family-57	LINE/CR1	1	93
+scaffold-mi7	3024168	3024690	PER36_PLA2_B1.PLA2_K.PLA2_A1	scaffold-mi7	3024462	3024766	ERV1-4_SSc-I	LTR/ERV1	1	228
+scaffold-mi7	3030314	3030571	PER37_PLA2_B1.PLA2_K	scaffold-mi7	3030307	3030375	Catrox_rnd-1_family-8	SINE/Deu	1	61
+scaffold-mi7	3034975	3035307	PER38_PLA2_B1.PLA2_K.PLA2_A1	scaffold-mi7	3035298	3035343	Thamnophis454_rnd-1_family-109	DNA/TcMar	1	9
+scaffold-mi7	3044361	3044567	PER39_PLA2_A1	scaffold-mi7	3044342	3044673	Catrox_rnd-3_family-1141	LINE/CR1	1	206
